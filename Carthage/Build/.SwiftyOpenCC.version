@@ -1,0 +1,31 @@
+{
+  "commitish" : "v1.0.1",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "7a9e6d75ad7cd4794ee0af1ea34be98311fd1d77dd615854841e93c66c74074c",
+      "name" : "OpenCC",
+      "container" : "OpenCC.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "swiftToolchainVersion" : "5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)",
+      "hash" : "b43fe5d7922871072c5858641e210287d961cdde378a49e3b6a1c32d40fd8205",
+      "name" : "OpenCC",
+      "container" : "OpenCC.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "60628f037fe26a75ce0071889280fd70c4671c309b34cd092775aedd3f5806bf",
+      "name" : "OpenCCBridge",
+      "container" : "OpenCCBridge.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "3de6a40c088045a975b25443de33e58ef6ac7707808434e955407ebf821ec109",
+      "name" : "OpenCCBridge",
+      "container" : "OpenCCBridge.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

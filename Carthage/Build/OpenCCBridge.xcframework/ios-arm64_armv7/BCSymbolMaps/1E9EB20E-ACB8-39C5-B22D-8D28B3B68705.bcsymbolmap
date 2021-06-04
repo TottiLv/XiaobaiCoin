@@ -1,0 +1,1428 @@
+BCSymbolMap Version: 2.0
+__ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1IDnEEPKc
+__ZN6opencc13InvalidFormatD1Ev
+__ZN6opencc7Lexicon3AddEPNS_9DictEntryE
+__ZNK6opencc16SerializableDict15SerializeToFileERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc10BinaryDictD1Ev
+__ZN6opencc10BinaryDictD0Ev
+__ZN6opencc13InvalidFormatC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc13InvalidFormatD0Ev
+__ZNK6opencc9Exception4whatEv
+__ZN6opencc9ExceptionD1Ev
+__ZN6opencc9ExceptionD0Ev
+__ZN6opencc12PtrDictEntryD1Ev
+__ZN6opencc12PtrDictEntryD0Ev
+__ZNK6opencc12PtrDictEntry3KeyEv
+__ZNK6opencc12PtrDictEntry6ValuesEv
+__ZNK6opencc19MultiValueDictEntry10GetDefaultEv
+__ZNK6opencc12PtrDictEntry9NumValuesEv
+__ZNSt3__1L20__throw_length_errorEPKc
+__ZNSt12length_errorC1EPKc
+__ZN6opencc15FileNotWritableC1ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc15FileNotWritableD1Ev
+__ZN6opencc15FileNotWritableC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc15FileNotWritableD0Ev
+__ZN6opencc10BinaryDictD2Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__ZN6opencc7LexiconD2Ev
+__ZNKSt9type_infoeqERKS_
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_BinaryDict.cpp
+__ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.1
+__ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.2
+__ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.3
+__ZN6opencc10BinaryDict11NewFromFileEP7__sFILE.cold.1
+__ZL22PACKAGE_DATA_DIRECTORY
+__ZTSN6opencc13InvalidFormatE
+__ZTSN6opencc9ExceptionE
+__ZTIN6opencc9ExceptionE
+__ZTIN6opencc13InvalidFormatE
+__ZTSN6opencc16SerializableDictE
+__ZTIN6opencc16SerializableDictE
+__ZTSN6opencc12PtrDictEntryE
+__ZTIN6opencc12PtrDictEntryE
+__ZTSN6opencc15FileNotWritableE
+__ZTIN6opencc15FileNotWritableE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc7LexiconENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc7LexiconEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc7LexiconEEE
+__ZTINSt3__114default_deleteIN6opencc7LexiconEEE
+__ZTINSt3__110shared_ptrIN6opencc7LexiconEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc10BinaryDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc10BinaryDictEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc10BinaryDictEEE
+__ZTINSt3__114default_deleteIN6opencc10BinaryDictEEE
+__ZTINSt3__110shared_ptrIN6opencc10BinaryDictEE27__shared_ptr_default_deleteIS2_S2_EE
+Apple clang version 12.0.5 (clang-1205.0.22.9)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iPhoneOS14.5.sdk
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/BinaryDict.cpp
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC
+_ZN6opencc10BinaryDict11NewFromFileEP7__sFILE.cold.1
+Sources/OpenCCBridge/BinaryDict.cpp
+_ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.3
+_ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.2
+_ZNK6opencc10BinaryDict15ConstructBufferERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorImNS5_ImEEEERmS8_SC_SD_.cold.1
+_GLOBAL__sub_I_BinaryDict.cpp
+__cxx_global_var_init
+Sources/OpenCCBridge/include/Common.hpp
+~shared_ptr
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/memory
+__release_shared
+__libcpp_atomic_refcount_decrement<long>
+__on_zero_shared_weak
+deallocate
+__libcpp_deallocate
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/new
+__do_deallocate_handle_size_align
+__do_deallocate_handle_size
+__do_call
+__get_deleter
+__on_zero_shared
+operator()
+first
+__get
+~__shared_ptr_pointer
+shared_ptr<opencc::BinaryDict>
+~unique_ptr
+reset
+__shared_ptr_pointer
+__compressed_pair<std::__1::__compressed_pair<opencc::BinaryDict *, std::__1::shared_ptr<opencc::BinaryDict>::__shared_ptr_default_delete<opencc::BinaryDict, opencc::BinaryDict> >, std::__1::allocator<opencc::BinaryDict> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::BinaryDict *, std::__1::shared_ptr<opencc::BinaryDict>::__shared_ptr_default_delete<opencc::BinaryDict, opencc::BinaryDict> >, void>
+__shared_weak_count
+__shared_count
+operator==
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/typeinfo
+__eq
+__type_name_to_string
+__is_type_name_unique
+~Lexicon
+Sources/OpenCCBridge/include/Lexicon.hpp
+operator!=<opencc::DictEntry **>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/iterator
+operator==<opencc::DictEntry **, opencc::DictEntry **>
+operator++
+~vector
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/vector
+~__vector_base
+clear
+__destruct_at_end
+end
+begin
+shared_ptr<opencc::Lexicon>
+__compressed_pair<std::__1::__compressed_pair<opencc::Lexicon *, std::__1::shared_ptr<opencc::Lexicon>::__shared_ptr_default_delete<opencc::Lexicon, opencc::Lexicon> >, std::__1::allocator<opencc::Lexicon> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::Lexicon *, std::__1::shared_ptr<opencc::Lexicon>::__shared_ptr_default_delete<opencc::Lexicon, opencc::Lexicon> >, void>
+~BinaryDict
+Sources/OpenCCBridge/include/BinaryDict.hpp
+~basic_string
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/string
+__get_long_pointer
+__is_long
+~FileNotWritable
+Sources/OpenCCBridge/include/Exception.hpp
+~Exception
+FileNotWritable
+Exception
+operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+__init
+assign
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__string
+copy
+__set_short_size
+__set_long_size
+__set_long_cap
+__set_long_pointer
+allocate
+__libcpp_allocate
+__recommend
+__align_it<16>
+size
+basic_string
+__zero
+length_error
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/stdexcept
+__throw_length_error
+__vallocate
+__end_cap
+vector
+__construct_at_end<const char **>
+~_ConstructTransaction
+__construct_range_forward<const char *, const char *, const char *, const char *>
+_ConstructTransaction
+__vector_base
+NumValues
+Sources/OpenCCBridge/include/DictEntry.hpp
+GetDefault
+at
+Values
+Key
+~PtrDictEntry
+what
+c_str
+data
+__get_pointer
+__get_short_pointer
+~InvalidFormat
+InvalidFormat
+SerializeToFile
+Sources/OpenCCBridge/include/SerializableDict.hpp
+Add
+push_back
+__push_back_slow_path<opencc::DictEntry *const &>
+~__split_buffer
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__split_buffer
+__swap_out_circular_buffer
+swap<opencc::DictEntry **>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/type_traits
+__construct_backward_with_exception_guarantees<opencc::DictEntry *>
+construct<opencc::DictEntry *, opencc::DictEntry *const &>
+__construct<opencc::DictEntry *, opencc::DictEntry *const &>
+__split_buffer
+capacity
+__construct_one_at_end<opencc::DictEntry *const &>
+NewFromFile
+operator->
+PtrDictEntry
+__push_back_slow_path<const char *const &>
+swap<const char **>
+__construct_backward_with_exception_guarantees<const char *>
+construct<const char *, const char *const &>
+__construct<const char *, const char *const &>
+__construct_one_at_end<const char *const &>
+resize
+BinaryDict
+shared_ptr
+__add_shared
+__libcpp_atomic_refcount_increment<long>
+Lexicon
+ConstructBuffer
+operator!=<opencc::DictEntry *const *>
+operator==<opencc::DictEntry *const *, opencc::DictEntry *const *>
+operator!=<const char **>
+operator==<const char **, const char **>
+__push_back_slow_path<unsigned long>
+swap<unsigned long *>
+__construct_backward_with_exception_guarantees<unsigned long>
+construct<unsigned long, unsigned long>
+__construct<unsigned long, unsigned long>
+__construct_one_at_end<unsigned long>
+KeyLength
+operator*
+operator[]
+Length
+KeyMaxLength
+max<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/algorithm
+max<unsigned long, std::__1::__less<unsigned long> >
+basic_string<nullptr_t>
+length
+-[CCConverter initWithName:segmentation:conversionChain:]
+-[CCConverter convert:error:]
+___clang_call_terminate
+-[CCConverter dealloc]
+-[CCConverter .cxx_destruct]
+-[CCConverter .cxx_construct]
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_10shared_ptrINS1_12SegmentationEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_10shared_ptrINS1_12SegmentationEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEED0Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__ZNSt3__110unique_ptrIN6opencc9ConverterENS_14default_deleteIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_CCConverter.mm
+-[CCConverter initWithName:segmentation:conversionChain:].cold.1
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+__OBJC_METACLASS_RO_$_CCConverter
+__OBJC_$_INSTANCE_METHODS_CCConverter
+_OBJC_IVAR_$_CCConverter._converter
+_OBJC_IVAR_$_CCConverter._segmentation
+_OBJC_IVAR_$_CCConverter._chain
+__OBJC_$_INSTANCE_VARIABLES_CCConverter
+__OBJC_CLASS_RO_$_CCConverter
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc10ConversionENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc10ConversionEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc10ConversionEEE
+__ZTINSt3__114default_deleteIN6opencc10ConversionEEE
+__ZTINSt3__110shared_ptrIN6opencc10ConversionEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_10shared_ptrINS1_12SegmentationEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc20MaxMatchSegmentationENS_10shared_ptrINS1_12SegmentationEE27__shared_ptr_default_deleteIS5_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc12SegmentationEE27__shared_ptr_default_deleteIS2_NS1_20MaxMatchSegmentationEEE
+__ZTSNSt3__114default_deleteIN6opencc20MaxMatchSegmentationEEE
+__ZTINSt3__114default_deleteIN6opencc20MaxMatchSegmentationEEE
+__ZTINSt3__110shared_ptrIN6opencc12SegmentationEE27__shared_ptr_default_deleteIS2_NS1_20MaxMatchSegmentationEEE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc15ConversionChainENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc15ConversionChainEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc15ConversionChainEEE
+__ZTINSt3__114default_deleteIN6opencc15ConversionChainEEE
+__ZTINSt3__110shared_ptrIN6opencc15ConversionChainEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9ConverterENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc9ConverterEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc9ConverterEEE
+__ZTINSt3__114default_deleteIN6opencc9ConverterEEE
+__ZTINSt3__110shared_ptrIN6opencc9ConverterEE27__shared_ptr_default_deleteIS2_S2_EE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/CCConverter.mm
+-[CCConverter initWithName:segmentation:conversionChain:].cold.1
+Sources/OpenCCBridge/CCConverter.mm
+_GLOBAL__sub_I_CCConverter.mm
+~Converter
+Sources/OpenCCBridge/include/Converter.hpp
+shared_ptr<opencc::Converter>
+release
+__compressed_pair<std::__1::__compressed_pair<opencc::Converter *, std::__1::shared_ptr<opencc::Converter>::__shared_ptr_default_delete<opencc::Converter, opencc::Converter> >, std::__1::allocator<opencc::Converter> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::Converter *, std::__1::shared_ptr<opencc::Converter>::__shared_ptr_default_delete<opencc::Converter, opencc::Converter> >, void>
+unique_ptr<true, void>
+__compressed_pair<opencc::Converter *&, std::__1::__default_init_tag>
+__compressed_pair_elem<opencc::Converter *&, void>
+~ConversionChain
+Sources/OpenCCBridge/include/ConversionChain.hpp
+~list
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/list
+~__list_imp
+shared_ptr<opencc::ConversionChain>
+__compressed_pair<std::__1::__compressed_pair<opencc::ConversionChain *, std::__1::shared_ptr<opencc::ConversionChain>::__shared_ptr_default_delete<opencc::ConversionChain, opencc::ConversionChain> >, std::__1::allocator<opencc::ConversionChain> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::ConversionChain *, std::__1::shared_ptr<opencc::ConversionChain>::__shared_ptr_default_delete<opencc::ConversionChain, opencc::ConversionChain> >, void>
+~Conversion
+Sources/OpenCCBridge/include/Conversion.hpp
+shared_ptr<opencc::Conversion>
+__compressed_pair<std::__1::__compressed_pair<opencc::Conversion *, std::__1::shared_ptr<opencc::Conversion>::__shared_ptr_default_delete<opencc::Conversion, opencc::Conversion> >, std::__1::allocator<opencc::Conversion> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::Conversion *, std::__1::shared_ptr<opencc::Conversion>::__shared_ptr_default_delete<opencc::Conversion, opencc::Conversion> >, void>
+list
+operator!=
+__list_imp
+__compressed_pair<int, std::__1::allocator<std::__1::__list_node<std::__1::shared_ptr<opencc::Conversion>, void *> > >
+__compressed_pair_elem<int, void>
+__list_node_base
+destroy<std::__1::shared_ptr<opencc::Conversion> >
+__destroy<std::__1::shared_ptr<opencc::Conversion> >
+__unlink_nodes
+__end_as_link
+empty
+__sz
+swap
+swap<opencc::Converter *>
+swap<std::__1::__shared_weak_count *>
+__link_nodes_at_back
+construct<std::__1::shared_ptr<opencc::Conversion>, const std::__1::shared_ptr<opencc::Conversion> &>
+__construct<std::__1::shared_ptr<opencc::Conversion>, const std::__1::shared_ptr<opencc::Conversion> &>
+__allocate_node
+operator=
+Converter
+shared_ptr<opencc::MaxMatchSegmentation>
+__compressed_pair<std::__1::__compressed_pair<opencc::MaxMatchSegmentation *, std::__1::shared_ptr<opencc::Segmentation>::__shared_ptr_default_delete<opencc::Segmentation, opencc::MaxMatchSegmentation> >, std::__1::allocator<opencc::MaxMatchSegmentation> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::MaxMatchSegmentation *, std::__1::shared_ptr<opencc::Segmentation>::__shared_ptr_default_delete<opencc::Segmentation, opencc::MaxMatchSegmentation> >, void>
+MaxMatchSegmentation
+Sources/OpenCCBridge/include/MaxMatchSegmentation.hpp
+Conversion
+__compressed_pair<int, std::__1::__default_init_tag>
+-[CCDict dict]
+-[CCDict initWithURL:error:]
+___28-[CCDict initWithURL:error:]_block_invoke
+__ZN6opencc16SerializableDict11NewFromFileINS_9DartsDictEEENSt3__110shared_ptrIT_EERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+___copy_helper_block_ea8_32s40c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+___destroy_helper_block_ea8_32s40c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+-[CCDict initWithDicts:]
+-[CCDict dealloc]
+-[CCDict .cxx_destruct]
+-[CCDict .cxx_construct]
+__ZN6opencc16SerializableDict15TryLoadFromFileINS_9DartsDictEEEbRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS3_10shared_ptrIT_EE
+__ZN6opencc12FileNotFoundD1Ev
+__ZN6opencc12FileNotFoundC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc12FileNotFoundD0Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_CCDict.mm
+___block_descriptor_64_ea8_32s40c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+__OBJC_METACLASS_RO_$_CCDict
+__OBJC_$_INSTANCE_METHODS_CCDict
+_OBJC_IVAR_$_CCDict._dict
+__OBJC_$_INSTANCE_VARIABLES_CCDict
+__OBJC_$_PROP_LIST_CCDict
+__OBJC_CLASS_RO_$_CCDict
+__ZTSN6opencc12FileNotFoundE
+__ZTIN6opencc12FileNotFoundE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9DictGroupENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc9DictGroupEE27__shared_ptr_default_deleteIS2_S2_EE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/CCDict.mm
+_GLOBAL__sub_I_CCDict.mm
+second
+~FileNotFound
+FileNotFound
+TryLoadFromFile<opencc::DartsDict>
+swap<opencc::DartsDict *>
+GetPlatformString
+Sources/OpenCCBridge/include/UTF8Util.hpp
+destroy<std::__1::shared_ptr<opencc::Dict> >
+__destroy<std::__1::shared_ptr<opencc::Dict> >
+Sources/OpenCCBridge/CCDict.mm
+swap<opencc::Dict *>
+operator=<opencc::DictGroup>
+shared_ptr<opencc::DictGroup>
+__compressed_pair<std::__1::__compressed_pair<opencc::DictGroup *, std::__1::shared_ptr<opencc::DictGroup>::__shared_ptr_default_delete<opencc::DictGroup, opencc::DictGroup> >, std::__1::allocator<opencc::DictGroup> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::DictGroup *, std::__1::shared_ptr<opencc::DictGroup>::__shared_ptr_default_delete<opencc::DictGroup, opencc::DictGroup> >, void>
+construct<std::__1::shared_ptr<opencc::Dict>, std::__1::shared_ptr<opencc::Dict> >
+__construct<std::__1::shared_ptr<opencc::Dict>, std::__1::shared_ptr<opencc::Dict> >
+__destroy_helper_block_ea8_32s40c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__copy_helper_block_ea8_32s40c66_ZTSNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+NewFromFile<opencc::DartsDict>
+__28-[CCDict initWithURL:error:]_block_invoke
+operator=<opencc::DartsDict>
+shared_ptr<opencc::DartsDict>
+__ZL22convertOpenCCExceptionN6opencc9ExceptionE15OpenCCErrorCode
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.3
+__ZTSN6opencc21InvalidTextDictionaryE
+__ZTIN6opencc21InvalidTextDictionaryE
+__ZTSN6opencc11InvalidUTF8E
+__ZTIN6opencc11InvalidUTF8E
+_OBJC_CLASSLIST_REFERENCES_$_.4
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/CCError.mm
+convertOpenCCException
+Sources/OpenCCBridge/CCError.mm
+catchOpenCCException
+openccError
+__ZN6opencc8UTF8Util14NextCharLengthEPKc
+__ZN6opencc8UTF8Util10FromSubstrEPKcm
+__ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZN6opencc8Segments10AddSegmentERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc8UTF8Util25NextCharLengthNoExceptionEPKc
+__ZN6opencc11InvalidUTF8D1Ev
+__ZN6opencc11InvalidUTF8C2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+__ZN6opencc11InvalidUTF8D0Ev
+__ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+__ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekposENS_4fposI11__mbstate_tEEj
+__ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+__ZNSt3__110unique_ptrIN6opencc8SegmentsENS_14default_deleteIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_Conversion.cpp
+__ZTSNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTINSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTSNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTINSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc8SegmentsENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc8SegmentsEE27__shared_ptr_default_deleteIS2_S2_EE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/Conversion.cpp
+_GLOBAL__sub_I_Conversion.cpp
+destroy<std::__1::basic_string<char> >
+__destroy<std::__1::basic_string<char> >
+destroy
+~Segments
+Sources/OpenCCBridge/include/Segments.hpp
+shared_ptr<opencc::Segments>
+__compressed_pair<std::__1::__compressed_pair<opencc::Segments *, std::__1::shared_ptr<opencc::Segments>::__shared_ptr_default_delete<opencc::Segments, opencc::Segments> >, std::__1::allocator<opencc::Segments> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::Segments *, std::__1::shared_ptr<opencc::Segments>::__shared_ptr_default_delete<opencc::Segments, opencc::Segments> >, void>
+__compressed_pair<opencc::Segments *&, std::__1::__default_init_tag>
+__compressed_pair_elem<opencc::Segments *&, void>
+str
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/sstream
+basic_string<char *, void>
+__init<char *>
+distance<char *>
+__distance<char *>
+egptr
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/streambuf
+eback
+pbase
+pptr
+__pad_and_output<char, std::__1::char_traits<char> >
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/locale
+width
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/ios
+sputn
+__put_character_sequence<char, std::__1::char_traits<char> >
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/ostream
+setstate
+failed
+fill
+widen
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__locale
+use_facet<std::__1::ctype<char> >
+eq_int_type
+flags
+ostreambuf_iterator
+rdbuf
+operator bool
+__compressed_pair<nullptr_t, std::__1::allocator<std::__1::basic_string<char> > &>
+__compressed_pair_elem<std::__1::allocator<std::__1::basic_string<char> > &, void>
+__compressed_pair_elem<nullptr_t, void>
+overflow
+sputc
+to_int_type
+to_char_type
+setg
+max<char *>
+max<char *, std::__1::__less<char *> >
+__pbump
+setp
+__get_short_size
+__get_long_size
+__get_long_cap
+epptr
+gptr
+pbackfail
+eq
+underflow
+seekpos
+operator long long
+seekoff
+pbump
+~basic_stringbuf
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/iosfwd
+_ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev
+~basic_ostringstream
+_ZTv0_n24_NSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+~InvalidUTF8
+InvalidUTF8
+NextCharLengthNoException
+AddSegment
+__push_back_slow_path<const std::__1::basic_string<char> &>
+swap<std::__1::basic_string<char> *>
+__construct_backward_with_exception_guarantees<std::__1::basic_string<char> *>
+construct<std::__1::basic_string<char>, std::__1::basic_string<char> >
+__construct<std::__1::basic_string<char>, std::__1::basic_string<char> >
+construct<std::__1::basic_string<char>, const std::__1::basic_string<char> &>
+__construct<std::__1::basic_string<char>, const std::__1::basic_string<char> &>
+__alloc
+__construct_one_at_end<const std::__1::basic_string<char> &>
+__push_back_slow_path<std::__1::pair<unsigned long, bool> >
+swap<std::__1::pair<unsigned long, bool> *>
+__construct_backward_with_exception_guarantees<std::__1::pair<unsigned long, bool> >
+construct<std::__1::pair<unsigned long, bool>, std::__1::pair<unsigned long, bool> >
+__construct<std::__1::pair<unsigned long, bool>, std::__1::pair<unsigned long, bool> >
+__construct_one_at_end<std::__1::pair<unsigned long, bool> >
+Convert
+Sources/OpenCCBridge/Conversion.cpp
+At
+Segments
+FromSubstr
+NextCharLength
+operator<<<std::__1::char_traits<char> >
+operator<<<char, std::__1::char_traits<char>, std::__1::allocator<char> >
+IsNull
+Sources/OpenCCBridge/include/Optional.hpp
+basic_ostringstream
+basic_stringbuf
+basic_ostream
+init
+basic_ios
+__GLOBAL__sub_I_ConversionChain.cpp
+__ZNK6opencc15ConversionChain7ConvertERKNSt3__110shared_ptrINS_8SegmentsEEE.cold.1
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/ConversionChain.cpp
+_ZNK6opencc15ConversionChain7ConvertERKNSt3__110shared_ptrINS_8SegmentsEEE.cold.1
+Sources/OpenCCBridge/ConversionChain.cpp
+_GLOBAL__sub_I_ConversionChain.cpp
+swap<opencc::Segments *>
+ConversionChain
+__ZNK6opencc8Segments8ToStringEv
+__GLOBAL__sub_I_Converter.cpp
+__ZNK6opencc9Converter7ConvertERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/Converter.cpp
+_ZNK6opencc9Converter7ConvertERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE.cold.1
+Sources/OpenCCBridge/Converter.cpp
+_GLOBAL__sub_I_Converter.cpp
+ToString
+__ZN6opencc9DartsDict13DartsInternalD2Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__ZN5Darts15DoubleArrayImplIvvivED1Ev
+__ZN5Darts15DoubleArrayImplIvvivED0Ev
+__ZN5Darts7Details8AutoPoolIhED1Ev
+__ZN5Darts7Details9AutoArrayINS0_27DoubleArrayBuilderExtraUnitEED1Ev
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEED1Ev
+__ZN5Darts7Details8AutoPoolIhED2Ev
+__ZN5Darts7Details8AutoPoolIhE5clearEv
+__ZN5Darts7Details9AutoArrayIcED1Ev
+__ZN5Darts7Details8AutoPoolIhE6resizeEm
+__ZN5Darts7Details9ExceptionD1Ev
+__ZN5Darts7Details9ExceptionD0Ev
+__ZNK5Darts7Details9Exception4whatEv
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_22DoubleArrayBuilderUnitEE6resizeEm
+__ZN5Darts7Details18DoubleArrayBuilder15build_from_dawgERKNS0_11DawgBuilderE
+__ZN5Darts7Details9AutoStackImED1Ev
+__ZN5Darts7Details8AutoPoolImED1Ev
+__ZN5Darts7Details9BitVectorD1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEED1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEED1Ev
+__ZN5Darts7Details9AutoStackImED2Ev
+__ZN5Darts7Details8AutoPoolImE5clearEv
+__ZN5Darts7Details8AutoPoolImE6resizeEm
+__ZN5Darts7Details8AutoPoolImED2Ev
+__ZN5Darts7Details9BitVectorD2Ev
+__ZN5Darts7Details9BitVector5clearEv
+__ZN5Darts7Details9AutoArrayImED1Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE6resizeEm
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEED2Ev
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE5clearEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE6resizeEm
+__ZN5Darts7Details11DawgBuilder4initEv
+__ZN5Darts7Details11DawgBuilder6insertEPKcmi
+__ZN5Darts7Details8AutoPoolImE6resizeEmRKm
+__ZN5Darts7Details8AutoPoolINS0_8DawgNodeEE6appendEv
+__ZN5Darts7Details9BitVector6appendEv
+__ZN5Darts7Details8AutoPoolINS0_8DawgUnitEE6appendEv
+__ZN5Darts7Details8AutoPoolImE6appendERKm
+__ZN5Darts7Details11DawgBuilder5flushEm
+__ZN5Darts7Details11DawgBuilder12expand_tableEv
+__ZNK5Darts7Details11DawgBuilder9find_nodeEmPm
+__ZN5Darts7Details9BitVector5buildEv
+__ZN5Darts7Details22DoubleArrayBuilderUnit10set_offsetEm
+__ZN5Darts7Details18DoubleArrayBuilder15build_from_dawgERKNS0_11DawgBuilderEmm
+__ZN5Darts7Details18DoubleArrayBuilder12expand_unitsEv
+__ZN5Darts7Details18DoubleArrayBuilder17arrange_from_dawgERKNS0_11DawgBuilderEmm
+__ZNK5Darts7Details9BitVector4rankEm
+__ZN5Darts7Details8AutoPoolIhE6appendERKh
+__ZN5Darts7Details11DawgBuilderD2Ev
+__ZN5Darts7Details18DoubleArrayBuilderD2Ev
+__GLOBAL__sub_I_DartsDict.cpp
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc9DartsDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc9DartsDictEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc9DartsDictEEE
+__ZTINSt3__114default_deleteIN6opencc9DartsDictEEE
+__ZTINSt3__110shared_ptrIN6opencc9DartsDictEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSN5Darts15DoubleArrayImplIvvivEE
+__ZTIN5Darts15DoubleArrayImplIvvivEE
+__ZTSN5Darts7Details9ExceptionE
+__ZTIN5Darts7Details9ExceptionE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/DartsDict.cpp
+_GLOBAL__sub_I_DartsDict.cpp
+~DoubleArrayBuilder
+Sources/OpenCCBridge/include/darts.h
+~AutoPool
+~AutoArray
+arrange_from_keyset<int>
+set_label
+set_value
+set_has_leaf
+reserve_id
+set_is_fixed
+set_prev
+extras
+next
+set_next
+prev
+set_is_used
+num_keys
+values
+has_values
+lengths
+keys
+has_lengths
+find_valid_offset
+is_valid_offset
+is_fixed
+is_used
+build_from_keyset<int>
+~DawgBuilder
+~BitVector
+~AutoStack
+append
+rank
+pop_count
+arrange_from_dawg
+sibling
+has_sibling
+value
+is_leaf
+label
+child
+expand_units
+fix_block
+build_from_dawg
+intersection_id
+is_intersection
+set_offset
+build
+AutoArray
+find_node
+are_equal
+unit
+hash_node
+hash
+expand_table
+find_unit
+hash_unit
+is_state
+flush
+free_node
+push
+set_child
+top
+append_unit
+set
+DawgUnit
+DawgNode
+insert
+set_sibling
+set_is_state
+append_node
+pop
+pop_back
+set_has_sibling
+resize_buf
+fix_all_blocks
+num_blocks
+DoubleArrayBuilderExtraUnit
+reserve
+num_intersections
+num_ones
+build_dawg<int>
+finish
+DoubleArrayBuilderUnit
+build<int>
+DawgBuilder
+AutoPool
+__append
+__construct_at_end
+construct<const char *>
+__construct<const char *>
+~DoubleArrayImpl
+__compressed_pair<std::__1::__compressed_pair<opencc::DartsDict *, std::__1::shared_ptr<opencc::DartsDict>::__shared_ptr_default_delete<opencc::DartsDict, opencc::DartsDict> >, std::__1::allocator<opencc::DartsDict> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::DartsDict *, std::__1::shared_ptr<opencc::DartsDict>::__shared_ptr_default_delete<opencc::DartsDict, opencc::DartsDict> >, void>
+~DartsInternal
+Sources/OpenCCBridge/DartsDict.cpp
+_ZThn8_NK6opencc9DartsDict15SerializeToFileEP7__sFILE
+reset<opencc::BinaryDict>
+swap<opencc::BinaryDict *>
+array
+total_size
+DoubleArrayUnit
+DoubleArrayBuilder
+Keyset
+NewFromDict
+swap<opencc::Lexicon *>
+DoubleArrayImpl
+DartsDict
+GetLexicon
+set_array
+MatchPrefix
+commonPrefixSearch<int>
+set_result
+has_leaf
+offset
+Match
+exactMatchSearch<Darts::DoubleArrayImpl<void, void, int, void>::result_pair_type>
+~DartsDict
+DartsInternal
+SerializableDict
+Dict
+Sources/OpenCCBridge/include/Dict.hpp
+__ZN6opencc8UTF8Util12TruncateUTF8EPKcm
+__ZN6opencc8UTF8Util14PrevCharLengthEPKc
+__GLOBAL__sub_I_Dict.cpp
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/Dict.cpp
+_GLOBAL__sub_I_Dict.cpp
+MatchAllPrefixes
+Sources/OpenCCBridge/Dict.cpp
+__push_back_slow_path<const opencc::DictEntry *const &>
+swap<const opencc::DictEntry **>
+__construct_backward_with_exception_guarantees<const opencc::DictEntry *>
+construct<const opencc::DictEntry *, const opencc::DictEntry *const &>
+__construct<const opencc::DictEntry *, const opencc::DictEntry *const &>
+__construct_one_at_end<const opencc::DictEntry *const &>
+PrevCharLength
+TruncateUTF8
+__move_assign
+NotShorterThan
+__ZN6opencc19MultiValueDictEntryD1Ev
+__ZN6opencc19MultiValueDictEntryD0Ev
+__GLOBAL__sub_I_DictEntry.cpp
+__ZTSN6opencc9DictEntryE
+__ZTIN6opencc9DictEntryE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/DictEntry.cpp
+_GLOBAL__sub_I_DictEntry.cpp
+~MultiValueDictEntry
+Sources/OpenCCBridge/DictEntry.cpp
+__ZN6opencc16DictEntryFactory3NewEPKNS_9DictEntryE
+__ZN6opencc16NoValueDictEntryD1Ev
+__ZN6opencc16NoValueDictEntryD0Ev
+__ZNK6opencc16NoValueDictEntry3KeyEv
+__ZNK6opencc16NoValueDictEntry6ValuesEv
+__ZNK6opencc16NoValueDictEntry10GetDefaultEv
+__ZNK6opencc16NoValueDictEntry9NumValuesEv
+__ZNK6opencc16NoValueDictEntry8ToStringEv
+__ZN6opencc23StrSingleValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+__ZN6opencc23StrSingleValueDictEntryD1Ev
+__ZN6opencc23StrSingleValueDictEntryD0Ev
+__ZNK6opencc23StrSingleValueDictEntry3KeyEv
+__ZNK6opencc20SingleValueDictEntry6ValuesEv
+__ZNK6opencc20SingleValueDictEntry10GetDefaultEv
+__ZNK6opencc20SingleValueDictEntry9NumValuesEv
+__ZNK6opencc20SingleValueDictEntry8ToStringEv
+__ZNK6opencc23StrSingleValueDictEntry5ValueEv
+__ZN6opencc23StrSingleValueDictEntryD2Ev
+__ZN6opencc22StrMultiValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIPKcNS5_ISC_EEEE
+__ZN6opencc22StrMultiValueDictEntryD1Ev
+__ZN6opencc22StrMultiValueDictEntryD0Ev
+__ZNK6opencc22StrMultiValueDictEntry3KeyEv
+__ZNK6opencc22StrMultiValueDictEntry6ValuesEv
+__ZNK6opencc22StrMultiValueDictEntry9NumValuesEv
+__ZN6opencc22StrMultiValueDictEntryD2Ev
+__ZN6opencc9DictEntry11PtrLessThanEPKS0_S2_
+__ZNSt3__17__sort5IRPFbPKN6opencc9DictEntryES4_EPPS2_EEjT0_SA_SA_SA_SA_T_
+__GLOBAL__sub_I_DictGroup.cpp
+__ZNK6opencc9DictGroup10GetLexiconEv.cold.1
+__ZTSN6opencc16NoValueDictEntryE
+__ZTIN6opencc16NoValueDictEntryE
+__ZTSN6opencc23StrSingleValueDictEntryE
+__ZTSN6opencc20SingleValueDictEntryE
+__ZTIN6opencc20SingleValueDictEntryE
+__ZTIN6opencc23StrSingleValueDictEntryE
+__ZTSN6opencc22StrMultiValueDictEntryE
+__ZTIN6opencc22StrMultiValueDictEntryE
+__ZNSt3__1L19piecewise_constructE
+__ZTSNSt3__114default_deleteIN6opencc9DictGroupEEE
+__ZTINSt3__114default_deleteIN6opencc9DictGroupEEE
+__ZTINSt3__110shared_ptrIN6opencc9DictGroupEE27__shared_ptr_default_deleteIS2_S2_EE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/DictGroup.cpp
+_ZNK6opencc9DictGroup10GetLexiconEv.cold.1
+Sources/OpenCCBridge/DictGroup.cpp
+_GLOBAL__sub_I_DictGroup.cpp
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/initializer_list
+__tree_balance_after_insert<std::__1::__tree_node_base<void *> *>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__tree
+__tree_left_rotate<std::__1::__tree_node_base<void *> *>
+__set_parent
+__tree_is_left_child<std::__1::__tree_node_base<void *> *>
+__parent_unsafe
+__tree_right_rotate<std::__1::__tree_node_base<void *> *>
+__insert_node_at
+__begin_node
+__emplace_unique_key_args<unsigned long, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+__tree_iterator
+get
+__construct_node<const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+construct<std::__1::pair<const unsigned long, const opencc::DictEntry *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+__construct<std::__1::pair<const unsigned long, const opencc::DictEntry *>, const std::__1::piecewise_construct_t &, std::__1::tuple<const unsigned long &>, std::__1::tuple<> >
+pair<const unsigned long &>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/utility
+pair<const unsigned long &, 0>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/tuple
+__find_equal<unsigned long>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/map
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__functional_base
+__root_ptr
+__root
+__end_node
+construct<std::__1::shared_ptr<opencc::Dict>, const std::__1::shared_ptr<opencc::Dict> &>
+__construct<std::__1::shared_ptr<opencc::Dict>, const std::__1::shared_ptr<opencc::Dict> &>
+__compressed_pair<int, std::__1::allocator<std::__1::__list_node<std::__1::shared_ptr<opencc::Dict>, void *> > >
+__insertion_sort_incomplete<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+swap<opencc::DictEntry *>
+__insertion_sort_3<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort5<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort4<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort3<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+__sort<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), opencc::DictEntry **>
+PtrLessThan
+operator<
+~StrMultiValueDictEntry
+__push_back_slow_path<const char *>
+operator!=<const std::__1::basic_string<char> *>
+operator==<const std::__1::basic_string<char> *, const std::__1::basic_string<char> *>
+construct<const char *, const char *>
+__construct<const char *, const char *>
+__construct_one_at_end<const char *>
+StrMultiValueDictEntry
+operator!=<const char *const *>
+operator==<const char *const *, const char *const *>
+__push_back_slow_path<std::__1::basic_string<char> >
+__construct_one_at_end<std::__1::basic_string<char> >
+~StrSingleValueDictEntry
+Value
+__construct_at_end<const char *const *>
+__construct_range_forward<const char *const, const char *, const char *, const char *>
+StrSingleValueDictEntry
+~NoValueDictEntry
+DictGroup
+shared_ptr<opencc::TextDict>
+New
+NoValueDictEntry
+Sort
+sort<opencc::DictEntry *, bool (*)(const opencc::DictEntry *, const opencc::DictEntry *)>
+sort<opencc::DictEntry **, bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *)>
+~map
+~__tree
+operator!=<std::__1::__map_iterator<std::__1::__tree_iterator<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, std::__1::__tree_node<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, void *> *, long> >, std::__1::__map_iterator<std::__1::__tree_iterator<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, std::__1::__tree_node<std::__1::__value_type<unsigned long, const opencc::DictEntry *>, void *> *, long> > >
+rend
+operator--
+__tree_prev_iter<std::__1::__tree_node_base<void *> *, std::__1::__tree_end_node<std::__1::__tree_node_base<void *> *> *>
+__tree_max<std::__1::__tree_node_base<void *> *>
+operator!=<const opencc::DictEntry *const *>
+operator==<const opencc::DictEntry *const *, const opencc::DictEntry *const *>
+__get_np
+find
+find<unsigned long>
+__lower_bound<unsigned long>
+map
+__tree
+__compressed_pair<int, const std::__1::__map_value_compare<unsigned long, std::__1::__value_type<unsigned long, const opencc::DictEntry *>, std::__1::less<unsigned long>, true> &>
+__compressed_pair<true, void>
+__compressed_pair_elem
+__tree_end_node
+~DictGroup
+__ZN6opencc8Segments10AddSegmentEPKc
+__ZN6opencc20MaxMatchSegmentationD1Ev
+__ZN6opencc20MaxMatchSegmentationD0Ev
+__GLOBAL__sub_I_MaxMatchSegmentation.cpp
+__ZTSN6opencc12SegmentationE
+__ZTIN6opencc12SegmentationE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/MaxMatchSegmentation.cpp
+_GLOBAL__sub_I_MaxMatchSegmentation.cpp
+~MaxMatchSegmentation
+Segment
+Sources/OpenCCBridge/MaxMatchSegmentation.cpp
+__ZNSt3__16vectorIN6opencc19UTF8StringSliceBaseIhEENS_9allocatorIS3_EEED1Ev
+__ZNK6opencc19UTF8StringSliceBaseIhE16FindBytePositionERKS1_
+__ZN6opencc13PhraseExtract8DictType5ClearEv
+__ZNK6opencc19UTF8StringSliceBaseImE5RightEm
+__ZNK6opencc19UTF8StringSliceBaseIhE4LeftEh
+__ZN6opencc13PhraseExtract8DictType3GetERKNS_19UTF8StringSliceBaseIhEE
+__ZNK6opencc19UTF8StringSliceBaseIhE5RightEh
+__ZNK6opencc19UTF8StringSliceBaseIhEeqERKS1_
+__ZN6opencc13PhraseExtract8DictType9BuildKeysEv
+__ZN6opencc13PhraseExtract8DictType11BuildDaTrieEv
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEvT0_SE_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_SE_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEjT0_SE_SE_SE_SE_T_
+__ZNSt3__118__insertion_sort_3IRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEvT0_SE_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract8DictType9BuildKeysEvEUlRKNS_4pairINS1_19UTF8StringSliceBaseIhEENS2_7SignalsEEESA_E_PS8_EEbT0_SE_T_
+__ZNK6opencc19UTF8StringSliceBaseIhEltERKS1_
+__ZN6opencc15ShouldNotBeHereC1Ev
+__ZN6opencc15ShouldNotBeHereD1Ev
+__ZN6opencc15ShouldNotBeHereC2Ev
+__ZN6opencc15ShouldNotBeHereD0Ev
+__ZN6opencc19UTF8StringSliceBaseImEC2EPKc
+__ZN6opencc19UTF8StringSliceBaseIhEC2EPKc
+__ZNK6opencc19UTF8StringSliceBaseIhE8ToStringEv
+__ZNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_ED1Ev
+__ZNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_ED0Ev
+__ZN6opencc19UTF8StringSliceBaseImE19CalculateByteLengthEv
+__ZNSt3__17__sort5IRNS_6__lessIN6opencc19UTF8StringSliceBaseIhEES4_EEPS4_EEjT0_S8_S8_S8_S8_T_
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEvT0_S8_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_S8_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract15ExtractPrefixesEvE3$_0PNS1_19UTF8StringSliceBaseIhEEEEbT0_S8_T_
+__ZNK6opencc19UTF8StringSliceBaseIhE14ReverseCompareERKS1_
+__ZNSt3__1L25__throw_bad_function_callEv
+__ZNSt3__117bad_function_callD1Ev
+__ZNSt3__117bad_function_callD0Ev
+__ZNSt3__16__sortIRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEvT0_S8_T_
+__ZNSt3__17__sort3IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_T_
+__ZNSt3__17__sort4IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_T_
+__ZNSt3__17__sort5IRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEjT0_S8_S8_S8_S8_T_
+__ZNSt3__127__insertion_sort_incompleteIRZN6opencc13PhraseExtract21ExtractWordCandidatesEvE3$_1PNS1_19UTF8StringSliceBaseIhEEEEbT0_S8_T_
+__ZNK6opencc19UTF8StringSliceBaseIhE9SubStringEhh
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED1Ev
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED0Ev
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEv
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEPNS0_6__baseISK_EE
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7destroyEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE18destroy_deallocateEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEclESA_SJ_
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE6targetERKSt9type_info
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE11target_typeEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED1Ev
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEED0Ev
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEv
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7__cloneEPNS0_6__baseISK_EE
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE7destroyEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE18destroy_deallocateEv
+__ZNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEclESA_SJ_
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE6targetERKSt9type_info
+__ZNKSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEE11target_typeEv
+__GLOBAL__sub_I_PhraseExtract.cpp
+__ZN6opencc13PhraseExtract22CalculateSuffixEntropyEv.cold.1
+__ZN6opencc13PhraseExtract22CalculatePrefixEntropyEv.cold.1
+__ZZN6opencc8internal19ContainsPunctuationERKNS_19UTF8StringSliceBaseIhEEE12punctuations
+__ZGVZN6opencc8internal19ContainsPunctuationERKNS_19UTF8StringSliceBaseIhEEE12punctuations
+__ZTSN6opencc15ShouldNotBeHereE
+__ZTIN6opencc15ShouldNotBeHereE
+__ZTSNSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_EE
+__ZTSNSt3__110__function6__baseIFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEEEE
+__ZTINSt3__110__function6__baseIFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEEEE
+__ZTINSt3__110__function6__funcIPFbRKN6opencc13PhraseExtractERKNS2_19UTF8StringSliceBaseIhEEENS_9allocatorISB_EESA_EE
+__ZTSPFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTSFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTIFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTIPFbRKN6opencc13PhraseExtractERKNS_19UTF8StringSliceBaseIhEEE
+__ZTSNSt3__117bad_function_callE
+__ZTINSt3__117bad_function_callE
+__ZTVNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__baseIFvRKN6opencc19UTF8StringSliceBaseIhEERNS_13unordered_mapIS4_mNS4_6HasherENS_8equal_toIS4_EENS_9allocatorINS_4pairIS5_mEEEEEEEEE
+__ZTINSt3__110__function6__baseIFvRKN6opencc19UTF8StringSliceBaseIhEERNS_13unordered_mapIS4_mNS4_6HasherENS_8equal_toIS4_EENS_9allocatorINS_4pairIS5_mEEEEEEEEE
+__ZTINSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2
+__ZTIZN6opencc13PhraseExtract22CalculateSuffixEntropyEvE3$_2
+__ZTVNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSNSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTINSt3__110__function6__funcIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3NS_9allocatorIS4_EEFvRKNS2_19UTF8StringSliceBaseIhEERNS_13unordered_mapIS8_mNS8_6HasherENS_8equal_toIS8_EENS5_INS_4pairIS9_mEEEEEEEEE
+__ZTSZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3
+__ZTIZN6opencc13PhraseExtract22CalculatePrefixEntropyEvE3$_3
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp
+_ZN6opencc13PhraseExtract22CalculatePrefixEntropyEv.cold.1
+Sources/OpenCCBridge/PhraseExtract.cpp
+_ZN6opencc13PhraseExtract22CalculateSuffixEntropyEv.cold.1
+_GLOBAL__sub_I_PhraseExtract.cpp
+target_type
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/functional
+target
+__call<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher> &>
+__invoke<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher> &>
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/unordered_map
+UTF8Length
+Sources/OpenCCBridge/include/UTF8StringSlice.hpp
+destroy_deallocate
+__clone
+__func
+__alloc_func
+__compressed_pair<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &, const std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7)> &>
+__compressed_pair_elem<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &, 0>
+__target
+__compressed_pair<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &, std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7)> &&>
+~__func
+__call<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher> &>
+__invoke<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &, const opencc::UTF8StringSliceBase<unsigned char> &, std::__1::unordered_map<opencc::UTF8StringSliceBase<unsigned char>, unsigned long, opencc::UTF8StringSliceBase<unsigned char>::Hasher> &>
+__compressed_pair<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &, const std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7)> &>
+__compressed_pair_elem<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &, 0>
+__compressed_pair<const (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &, std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7)> &&>
+~__hash_table
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/__hash_table
+__deallocate_node
+__rehash
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, void *> *> **>
+__constrain_hash
+__hash
+rehash
+__next_hash_pow2
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/c++/v1/math.h
+max_load_factor
+__is_hash_power2
+bucket_count
+__emplace_unique_key_args<opencc::UTF8StringSliceBase<unsigned char>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct_node_hash<const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, unsigned long>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+pair<const opencc::UTF8StringSliceBase<unsigned char> &>
+pair<const opencc::UTF8StringSliceBase<unsigned char> &, 0>
+__get_ptr
+__get_value
+FNVHash<8>
+FNVHash
+ByteLength
+CString
+SubString
+NextChar
+UTF8StringSliceBase
+CalculateByteLength
+__insertion_sort_incomplete<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+Frequency
+Signal
+swap<opencc::UTF8StringSliceBase<unsigned char> >
+__sort5<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+~bad_function_call
+__throw_bad_function_call
+bad_function_call
+ReverseCompare
+min<unsigned long>
+min<unsigned long, std::__1::__less<unsigned long> >
+min<unsigned char>
+min<unsigned char, std::__1::__less<unsigned char> >
+__insertion_sort_incomplete<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort5<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_incomplete<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__insertion_sort_3<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort5<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort4<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort3<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+__sort<std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > &, opencc::UTF8StringSliceBase<unsigned char> *>
+swap<std::__1::__function::__base<bool (const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> *>
+__as_base
+__call<bool (*&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &>
+__invoke<bool (*&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &>
+__compressed_pair<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), const std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &>
+__compressed_pair_elem<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), 0>
+__compressed_pair<bool (*const &)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &&>
+basic_string<const char *, void>
+__init<const char *>
+~ShouldNotBeHere
+ShouldNotBeHere
+Compare
+__insertion_sort_incomplete<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+swap<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>
+swap<opencc::PhraseExtract::Signals>
+__insertion_sort_3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort5<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort4<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort3<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__sort<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__compressed_pair<nullptr_t, std::__1::allocator<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> > &>
+__compressed_pair_elem<std::__1::allocator<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> > &, void>
+swap<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+__construct_backward_with_exception_guarantees<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+BuildDaTrie
+BuildKeys
+__push_back_slow_path<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+construct<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+__construct<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+__construct_one_at_end<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> >
+pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals, false>
+sort<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9)>
+sort<std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:85:9) &>
+ClearDict
+~unordered_map
+unordered_map
+__hash_table
+__compressed_pair<float, std::__1::__default_init_tag>
+__compressed_pair_elem<float, void>
+__hash_node_base
+reset<std::__1::__hash_node_base<std::__1::__hash_node<std::__1::__hash_value_type<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, void *> *> **>
+construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+__construct<std::__1::pair<const opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals>, const std::__1::piecewise_construct_t &, std::__1::tuple<const opencc::UTF8StringSliceBase<unsigned char> &>, std::__1::tuple<> >
+swap<float>
+swap<unsigned long>
+SelectWords
+operator!=<opencc::UTF8StringSliceBase<unsigned char> *>
+operator==<opencc::UTF8StringSliceBase<unsigned char> *, opencc::UTF8StringSliceBase<unsigned char> *>
+__push_back_slow_path<const opencc::UTF8StringSliceBase<unsigned char> &>
+swap<opencc::UTF8StringSliceBase<unsigned char> *>
+__construct_backward_with_exception_guarantees<opencc::UTF8StringSliceBase<unsigned char> >
+construct<opencc::UTF8StringSliceBase<unsigned char>, const opencc::UTF8StringSliceBase<unsigned char> &>
+__construct<opencc::UTF8StringSliceBase<unsigned char>, const opencc::UTF8StringSliceBase<unsigned char> &>
+__construct_one_at_end<const opencc::UTF8StringSliceBase<unsigned char> &>
+CalculateEntropy
+Right
+PrevChar
+PMI
+LogProbability
+log<unsigned long>
+Probability
+PrefixEntropy
+SuffixEntropy
+Entropy
+Cohesion
+Get
+CalculateCohesion
+min<double>
+min<double, std::__1::__less<double> >
+CalculateCohesions
+CalculatePrefixSuffixEntropy<false>
+operator!=<const opencc::UTF8StringSliceBase<unsigned char> *>
+operator==<const opencc::UTF8StringSliceBase<unsigned char> *, const opencc::UTF8StringSliceBase<unsigned char> *>
+CalculatePrefixEntropy
+~function
+~__value_func
+function<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7), void>
+__value_func<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7), void>
+__value_func<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7), std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7)> >
+__compressed_pair<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &&, std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7)> &&>
+__compressed_pair_elem<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:328:7) &&, 0>
+CalculatePrefixSuffixEntropy<true>
+CalculateSuffixEntropy
+function<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7), void>
+__value_func<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7), void>
+__value_func<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7), std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7)> >
+__compressed_pair<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &&, std::__1::allocator<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7)> &&>
+__compressed_pair_elem<(lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:309:7) &&, 0>
+ExtractWordCandidates
+operator!=<const std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+operator==<const std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *, const std::__1::pair<opencc::UTF8StringSliceBase<unsigned char>, opencc::PhraseExtract::Signals> *>
+sort<opencc::UTF8StringSliceBase<unsigned char>, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13)>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:242:13) &>
+Left
+CalculateFrequency
+AddKey
+Build
+ExtractPrefixes
+MoveLeft
+__push_back_slow_path<opencc::UTF8StringSliceBase<unsigned char> >
+construct<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> >
+__construct<opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> >
+__construct_one_at_end<opencc::UTF8StringSliceBase<unsigned char> >
+sort<opencc::UTF8StringSliceBase<unsigned char>, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13)>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, (lambda at /Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/PhraseExtract.cpp:201:13) &>
+shrink_to_fit
+ExtractSuffixes
+MoveRight
+sort<opencc::UTF8StringSliceBase<unsigned char> >
+sort<opencc::UTF8StringSliceBase<unsigned char> *>
+sort<opencc::UTF8StringSliceBase<unsigned char> *, std::__1::__less<opencc::UTF8StringSliceBase<unsigned char> > >
+operator=<bool (&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), void>
+function<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), void>
+__value_func<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), void>
+__value_func<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> >
+__compressed_pair<bool (*&&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), std::__1::allocator<bool (*)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &)> &&>
+__compressed_pair_elem<bool (*&&)(const opencc::PhraseExtract &, const opencc::UTF8StringSliceBase<unsigned char> &), 0>
+Clear
+~PhraseExtract
+~DictType
+PhraseExtract
+Reset
+ReleaseSuffixes
+Sources/OpenCCBridge/include/PhraseExtract.hpp
+ReleasePrefixes
+DictType
+DefaultPostCalculationFilter
+DefaultPreCalculationFilter
+FindBytePosition
+ContainsPunctuation
+__construct_at_end<const opencc::UTF8StringSliceBase<unsigned char> *>
+__construct_range_forward<const opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char>, opencc::UTF8StringSliceBase<unsigned char> >
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/Segmentation.cpp
+__ZL20ParseLexiconFromFileP7__sFILE
+__ZN6opencc21InvalidTextDictionaryD1Ev
+__ZN6opencc16DictEntryFactory3NewERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_
+__ZN6opencc16DictEntryFactory3NewERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIS7_NS5_IS7_EEEE
+__ZN6opencc21InvalidTextDictionaryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEm
+__ZN6opencc21InvalidTextDictionaryD0Ev
+__ZN6opencc22StrMultiValueDictEntryC2ERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS1_6vectorIS7_NS5_IS7_EEEE
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev
+__ZNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev
+__GLOBAL__sub_I_TextDict.cpp
+__ZTSNSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTINSt3__120__shared_ptr_pointerIPN6opencc8TextDictENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE
+__ZTSNSt3__110shared_ptrIN6opencc8TextDictEE27__shared_ptr_default_deleteIS2_S2_EE
+__ZTSNSt3__114default_deleteIN6opencc8TextDictEEE
+__ZTINSt3__114default_deleteIN6opencc8TextDictEEE
+__ZTINSt3__110shared_ptrIN6opencc8TextDictEE27__shared_ptr_default_deleteIS2_S2_EE
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/TextDict.cpp
+_GLOBAL__sub_I_TextDict.cpp
+__compressed_pair<std::__1::__compressed_pair<opencc::TextDict *, std::__1::shared_ptr<opencc::TextDict>::__shared_ptr_default_delete<opencc::TextDict, opencc::TextDict> >, std::__1::allocator<opencc::TextDict> >
+__compressed_pair_elem<std::__1::__compressed_pair<opencc::TextDict *, std::__1::shared_ptr<opencc::TextDict>::__shared_ptr_default_delete<opencc::TextDict, opencc::TextDict> >, void>
+__construct_at_end<std::__1::basic_string<char> *>
+__construct_range_forward<std::__1::basic_string<char> *, std::__1::basic_string<char> *>
+construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+__construct<std::__1::basic_string<char>, std::__1::basic_string<char> &>
+~InvalidTextDictionary
+InvalidTextDictionary
+_ZThn8_NK6opencc8TextDict15SerializeToFileEP7__sFILE
+Sources/OpenCCBridge/TextDict.cpp
+Optional
+lower_bound<std::__1::__wrap_iter<opencc::DictEntry *const *>, opencc::NoValueDictEntry *, bool (*)(const opencc::DictEntry *, const opencc::DictEntry *)>
+__lower_bound<bool (*&)(const opencc::DictEntry *, const opencc::DictEntry *), std::__1::__wrap_iter<opencc::DictEntry *const *>, opencc::NoValueDictEntry *>
+advance<std::__1::__wrap_iter<opencc::DictEntry *const *>, long>
+__advance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+operator+=
+__half_positive<long>
+distance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+__distance<std::__1::__wrap_iter<opencc::DictEntry *const *> >
+operator-<opencc::DictEntry *const *, opencc::DictEntry *const *>
+TextDict
+ParseLexiconFromFile
+ParseKeyValues
+FindNextInline
+IsLineEndingOrFileEnding
+NewFromSortedFile
+~TextDict
+GetKeyMaxLength
+__GLOBAL__sub_I_UTF8StringSlice.cpp
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/UTF8StringSlice.cpp
+_GLOBAL__sub_I_UTF8StringSlice.cpp
+__GLOBAL__sub_I_UTF8Util.cpp
+/Users/totti/Desktop/work/coin/XiaobaiCoin/Carthage/Checkouts/SwiftyOpenCC/Sources/OpenCCBridge/UTF8Util.cpp
+_GLOBAL__sub_I_UTF8Util.cpp
+SkipUtf8Bom
+Sources/OpenCCBridge/UTF8Util.cpp
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+_OBJC_SELECTOR_REFERENCES_.10
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+_OBJC_SELECTOR_REFERENCES_.18
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+_OBJC_SELECTOR_REFERENCES_.23
+__ZL36original_NSKKMS_fastIndexForKnownKey
+_OBJC_SELECTOR_REFERENCES_.25
+__ZL27original_NSKKMS_indexForKey
+_OBJC_SELECTOR_REFERENCES_.28
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+_OBJC_SELECTOR_REFERENCES_.30
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+__ZL12demangleLock
+__ZL9Demangled
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+Apple clang version 12.0.5 (clang-1205.0.22.6)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -mlinker-version=650.9
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk
+iPhoneOS14.5.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
