@@ -20,9 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         let tabBar: XBCustomTabBar = XBCustomTabBar()
         self.window?.rootViewController = tabBar.XBCustomTabBar()
-        
-        self.__fetchCoinList()
-        
         return true
     }
     // MARK: UISceneSession Lifecycle
@@ -42,23 +39,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
-    fileprivate func __fetchCoinList(){
-        let webView = XBWebView()
-        COINAPI.AllNet.netList.fetch(nil, headers: nil) { response in
-            let json = response as! NSDictionary
-            if let result =  XBCoinModel.deserialize(from: json) {
-                let url:String? = result.data?.list?.first?.url
-                if (url != nil && !(url?.contains("winnie33.cc"))!) {
-                    webView.coinURL = url!
-                    self.window?.rootViewController = webView
-                }
-            }
-            
-        } failed: { error in
-            
-        }
-
-    }
 }
 

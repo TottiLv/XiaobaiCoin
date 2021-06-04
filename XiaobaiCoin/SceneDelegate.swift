@@ -28,8 +28,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
         let tabBar: XBCustomTabBar = XBCustomTabBar()
         window?.rootViewController = tabBar.XBCustomTabBar()
-        self.__fetchCoinList()
-
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
@@ -64,25 +62,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
-    }
-
-    fileprivate func __fetchCoinList(){
-        let webView = XBWebView()
-        COINAPI.AllNet.netList.fetch(nil, headers: nil) { response in
-            let json = response as! NSDictionary
-            if let result =  XBCoinModel.deserialize(from: json) {
-                let url:String? = result.data?.list?.first?.url
-                if (url != nil && !(url?.contains("winnie33.cc"))!) {
-                    webView.coinURL = url!
-                    self.window?.rootViewController = webView
-
-                }
-            }
-            
-        } failed: { error in
-            
-        }
-
     }
 }
 
