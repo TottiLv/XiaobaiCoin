@@ -69,24 +69,34 @@ class XBHomeViewController : UIViewController{
     }
     
     fileprivate func __fetchCoinValueList(){
+        self.__showLoadingView()
         API.Home.pricesList.fetch { response in
+            self.__removeLoadingView()
             let json = response as! NSArray
             if let result = JSONDeserializer<XBHomeMode>.deserializeModelArrayFrom(array: json) {
                 self.coinsList?.addObjects(from: result as [Any])
                 self.tableView?.reloadData()
             }
         } failed: { error in
-            
+            self.__removeLoadingView()
         }
 
     }
     
-    fileprivate func hideTabBar(){
-//        if self.tabBarController?.tabBar.isHidden == true {
-//            return
-//        }
-        
+    
+    func __showLoadingView(){
+        self.view.addSubview(self.loadingView)
     }
+    
+    func __removeLoadingView(){
+        self.loadingView .removeFromSuperview()
+    }
+    
+    lazy var loadingView: XBLoadingView = {
+        let loadingView: XBLoadingView = XBLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
+        loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
+        return loadingView
+    }()
     
     lazy var bundle: Bundle? = {
         let openCCBundle = Bundle(for: ChineseConverter.self)
