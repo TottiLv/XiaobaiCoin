@@ -19,11 +19,6 @@ class XBCustomTabBar: UITabBarController {
         let newsNavigationController: UINavigationController = XBNavigationController(rootViewController: newsVC)
         let meNavigationController: UINavigationController = XBNavigationController(rootViewController: meVC)
         
-        
-//        let str = "鼠标里面的硅二极管坏了，导致光标分辨率降低。"
-        
-//        converter.convert(str)
-        
         let tabbarName1 = "资讯"
         let tabbarName2 = "行情"
         let tabbarName3 = "我的"

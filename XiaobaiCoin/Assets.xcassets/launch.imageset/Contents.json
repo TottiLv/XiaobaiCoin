@@ -26,6 +26,7 @@
       "subtype" : "retina4"
     },
     {
+      "filename" : "Default-736h-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "subtype" : "retina4"
@@ -66,7 +67,7 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Default-Landscape-No-StatusBar@2x~ipad.png",
+      "filename" : "Default-Landscape@2x~ipad.png",
       "idiom" : "ipad",
       "scale" : "2x"
     }

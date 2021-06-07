@@ -152,14 +152,14 @@ class XBLoginViewController : UIViewController{
             self.tipAction("温馨提示", "密码不能为空", 3)
             return
         }
-        if user == "xiaobaikanbi@163.com" && pwd != "qwe123"{
+        if user == "xiaobaichacha@163.com" && pwd != "qwe123"{
             self.tipAction("温馨提示", "用户名密码错误，请重新输入", 4)
             return
         }
         UserDefaults.standard.setValue(user, forKey: "XB_USER_NAME")
         UserDefaults.standard.setValue(pwd, forKey: "XB_USER_PWD")
         UserDefaults.standard.synchronize()
-        self.tipAction("登录成功", "小白看币，欢迎您!", 5)
+        self.tipAction("登录成功", "小白查查，欢迎您!", 5)
     }
     
     lazy var bundle: Bundle? = {
