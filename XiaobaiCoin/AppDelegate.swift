@@ -12,13 +12,12 @@ import HandyJSON
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    //参考： https://www.cnblogs.com/brance/p/4964769.html
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let tabBar: XBCustomTabBar = XBCustomTabBar()
+        let tabBar: TLMediaCustomTabBar = TLMediaCustomTabBar()
         self.window?.rootViewController = tabBar.XBCustomTabBar()
         return true
     }

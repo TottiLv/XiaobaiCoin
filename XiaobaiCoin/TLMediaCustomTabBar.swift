@@ -1,5 +1,5 @@
 //
-//  XBCustomTabBar.swift
+//  TLMediaCustomTabBar.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -8,16 +8,16 @@
 import UIKit
 import OpenCC
 
-class XBCustomTabBar: UITabBarController {
+class TLMediaCustomTabBar: UITabBarController {
     
     func XBCustomTabBar() -> UITabBarController{
-        let homeVC = XBHomeViewController()
-        let newsVC = XBNewsViewController()
-        let meVC = XBMeViewController()
+        let homeVC = TLMediaHomeViewController()
+        let newsVC = TLMediaNewsViewController()
+        let meVC = TLMediaMeViewController()
         
-        let homeNavigationController: UINavigationController = XBNavigationController(rootViewController: homeVC)
-        let newsNavigationController: UINavigationController = XBNavigationController(rootViewController: newsVC)
-        let meNavigationController: UINavigationController = XBNavigationController(rootViewController: meVC)
+        let homeNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: homeVC)
+        let newsNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: newsVC)
+        let meNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: meVC)
         
         let tabbarName1 = "资讯"
         let tabbarName2 = "行情"

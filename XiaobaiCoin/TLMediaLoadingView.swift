@@ -1,5 +1,5 @@
 //
-//  XBLoadingView.swift
+//  TLMediaLoadingView.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/6/2.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class XBLoadingView: UIView {
+class TLMediaLoadingView: UIView {
     
     public var lineWidth: Int = 2  //线的宽度  默认为2
     
@@ -26,7 +26,7 @@ class XBLoadingView: UIView {
         super.init(frame: frame)
         self.layer.cornerRadius = 10 //圆角  纯属好看
         self.layer.masksToBounds = true
-        self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(XBLoadingView.updateLoading), userInfo: nil, repeats: true)  //创建计时器
+        self.timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(TLMediaLoadingView.updateLoading), userInfo: nil, repeats: true)  //创建计时器
         RunLoop.main.add(self.timer!, forMode: RunLoop.Mode.default)//计时器需要加入到RunLoop中：RunLoop的目的是让你的线程在有工作的时候忙碌，没有工作的时候休眠
         self.timer?.fire()
         

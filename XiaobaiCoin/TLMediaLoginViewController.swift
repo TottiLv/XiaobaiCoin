@@ -1,5 +1,5 @@
 //
-//  XBLoginViewController.swift
+//  TLMediaLoginViewController.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/6/4.
@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import OpenCC
 
-class XBLoginViewController : UIViewController{
+class TLMediaLoginViewController : UIViewController{
     
     var txtUser: UITextField!
     var txtPwd: UITextField!
@@ -172,6 +172,6 @@ class XBLoginViewController : UIViewController{
 }
 
 
-extension XBLoginViewController : UITextFieldDelegate{
+extension TLMediaLoginViewController : UITextFieldDelegate{
     
 }

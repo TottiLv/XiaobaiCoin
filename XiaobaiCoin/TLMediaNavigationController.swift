@@ -1,5 +1,5 @@
 //
-//  XBNavigationController.swift
+//  TLMediaNavigationController.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class XBNavigationController: UINavigationController{
+class TLMediaNavigationController: UINavigationController{
     override func viewDidLoad() {
         super.viewDidLoad()
         let navigationTitleAttribute: NSDictionary = NSDictionary(object: UIColor.white, forKey: NSAttributedString.Key.foregroundColor as NSCopying)

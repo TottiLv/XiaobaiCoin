@@ -1,5 +1,5 @@
 //
-//  XBMeViewController.swift
+//  TLMediaMeViewController.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/6/4.
@@ -11,10 +11,10 @@ import UIKit
 import SnapKit
 import OpenCC
 
-let XBJOINURL: String = "https://t.me/BinanceExchange"
-let XBPROTOCOLURL: String = "https://docs.google.com/document/d/1q0IwdnBJOP-cGjzHbUg3-d2Z1QVxSkp7XOGcMfOyX64/edit"
+let TLMEDIAJOINURL: String = "https://t.me/BinanceExchange"
+let TLMEDIAPROTOCOLURL: String = "https://docs.google.com/document/d/1q0IwdnBJOP-cGjzHbUg3-d2Z1QVxSkp7XOGcMfOyX64/edit"
 
-class XBMeViewController : UIViewController{
+class TLMediaMeViewController : UIViewController{
     
     var tableView: UITableView?
     var newsLists: NSMutableArray?
@@ -57,15 +57,15 @@ class XBMeViewController : UIViewController{
 //        self.tableView?.rowHeight = UITableView.automaticDimension
         self.view.addSubview(self.tableView!)
         //注册CELL
-        self.tableView?.register(XBNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
+        self.tableView?.register(TLMediaNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
         //清除多余cell分割线
         self.tableView?.tableFooterView = UIView()
     }
     
     fileprivate func __layoutUI(){
         self.tableView?.snp.makeConstraints({ make in
-            make.top.equalTo(self.view.snp.top).offset(XBTools.shared.safeArea().top+44)
-            make.bottom.equalTo(self.view.snp.bottom).inset(XBTools.shared.safeArea().bottom+44)
+            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top+44)
+            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom+44)
             make.left.right.equalTo(self.view)
         })
     }
@@ -115,7 +115,7 @@ class XBMeViewController : UIViewController{
 }
 
 
-extension XBMeViewController: UITableViewDelegate, UITableViewDataSource{
+extension TLMediaMeViewController: UITableViewDelegate, UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -171,19 +171,19 @@ extension XBMeViewController: UITableViewDelegate, UITableViewDataSource{
         switch indexPath.row {
         case 0:
             if (self.userName == nil) {
-                let loginVC: XBLoginViewController = XBLoginViewController.init()
+                let loginVC: TLMediaLoginViewController = TLMediaLoginViewController.init()
                 self.navigationController?.pushViewController(loginVC, animated: true)
             }else{
                 self.confirm()
             }
             
         case 1:
-            let webView = XBWebView()
-            webView.coinURL = XBJOINURL
+            let webView = TLMediaWebView()
+            webView.coinURL = TLMEDIAJOINURL
             self.navigationController?.pushViewController(webView, animated: true)
         case 4:
-            let webView = XBWebView()
-            webView.coinURL = XBPROTOCOLURL
+            let webView = TLMediaWebView()
+            webView.coinURL = TLMEDIAPROTOCOLURL
             self.navigationController?.pushViewController(webView, animated: true)
         default:
             print("")

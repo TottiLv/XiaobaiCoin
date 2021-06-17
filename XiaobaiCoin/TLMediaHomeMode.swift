@@ -1,5 +1,5 @@
 //
-//  XBHomeMode.swift
+//  TLMediaHomeMode.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/20.
@@ -9,7 +9,7 @@ import Foundation
 import HandyJSON
 
 
-struct XBHomeMode : HandyJSON{
+struct TLMediaHomeMode : HandyJSON{
     var currency: String?
     var name: String?
     var iconUrl: String?

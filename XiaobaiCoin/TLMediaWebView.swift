@@ -1,5 +1,5 @@
 //
-//  XBWebView.swift
+//  TLMediaWebView.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/21.
@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 import SnapKit
 //https://blog.csdn.net/weixin_41454168/article/details/105264089
-class XBWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHandler{
+class TLMediaWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHandler{
     
     var userWebview: WKWebView?
     var coinURL : String?
@@ -42,8 +42,8 @@ class XBWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHandler{
     
     fileprivate func __layoutUI(){
         self.userWebview?.snp.makeConstraints({ make in
-            make.top.equalTo(self.view.snp.top).offset(XBTools.shared.safeArea().top)
-            make.bottom.equalTo(self.view.snp.bottom).inset(XBTools.shared.safeArea().bottom)
+            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top)
+            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom)
             make.left.right.equalTo(self.view)
         })
     }
@@ -56,8 +56,8 @@ class XBWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHandler{
         self.loadingView .removeFromSuperview()
     }
     
-    lazy var loadingView: XBLoadingView = {
-        let loadingView: XBLoadingView = XBLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
+    lazy var loadingView: TLMediaLoadingView = {
+        let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
         loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
         return loadingView
     }()
@@ -66,7 +66,7 @@ class XBWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHandler{
     
 }
 
-extension XBWebView{
+extension TLMediaWebView{
     // MARK: --实现WKNavigationDelegate委托协议
         //开始加载时调用
         func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {

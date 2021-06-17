@@ -1,5 +1,5 @@
 //
-//  XBHomeViewController.swift
+//  TLMediaHomeViewController.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -11,7 +11,7 @@ import HandyJSON
 import ESPullToRefresh
 import OpenCC
 
-class XBHomeViewController : UIViewController{
+class TLMediaHomeViewController : UIViewController{
     
     var tableView: UITableView?
     var coinsList: NSMutableArray?
@@ -47,7 +47,7 @@ class XBHomeViewController : UIViewController{
         self.view.addSubview(self.tableView!)
         
         //注册CELL
-        self.tableView?.register(XBHomeTableViewCell.self, forCellReuseIdentifier: "homeCell")
+        self.tableView?.register(TLMediaHomeTableViewCell.self, forCellReuseIdentifier: "homeCell")
         //清除多余cell分割线
         self.tableView?.tableFooterView = UIView()
         
@@ -62,8 +62,8 @@ class XBHomeViewController : UIViewController{
     
     fileprivate func __layoutUI(){
         self.tableView?.snp.makeConstraints({ make in
-            make.top.equalTo(self.view.snp.top).offset(XBTools.shared.safeArea().top+44)
-            make.bottom.equalTo(self.view.snp.bottom).inset(XBTools.shared.safeArea().bottom+44)
+            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top+44)
+            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom+44)
             make.left.right.equalTo(self.view)
         })
     }
@@ -73,7 +73,7 @@ class XBHomeViewController : UIViewController{
         API.Home.pricesList.fetch { response in
             self.__removeLoadingView()
             let json = response as! NSArray
-            if let result = JSONDeserializer<XBHomeMode>.deserializeModelArrayFrom(array: json) {
+            if let result = JSONDeserializer<TLMediaHomeMode>.deserializeModelArrayFrom(array: json) {
                 self.coinsList?.addObjects(from: result as [Any])
                 self.tableView?.reloadData()
             }
@@ -92,8 +92,8 @@ class XBHomeViewController : UIViewController{
         self.loadingView .removeFromSuperview()
     }
     
-    lazy var loadingView: XBLoadingView = {
-        let loadingView: XBLoadingView = XBLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
+    lazy var loadingView: TLMediaLoadingView = {
+        let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
         loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
         return loadingView
     }()
@@ -107,7 +107,7 @@ class XBHomeViewController : UIViewController{
     }()
 }
 
-extension XBHomeViewController: UITableViewDelegate, UITableViewDataSource{
+extension TLMediaHomeViewController: UITableViewDelegate, UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -127,10 +127,10 @@ extension XBHomeViewController: UITableViewDelegate, UITableViewDataSource{
     //cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identify: String = "homeCell"
-        let cell = XBHomeTableViewCell(style: .default, reuseIdentifier: identify)
+        let cell = TLMediaHomeTableViewCell(style: .default, reuseIdentifier: identify)
         cell.selectionStyle = .none
         if self.coinsList?.count ?? 0 > indexPath.row {
-            let model: XBHomeMode = self.coinsList?.object(at: indexPath.row) as! XBHomeMode
+            let model: TLMediaHomeMode = self.coinsList?.object(at: indexPath.row) as! TLMediaHomeMode
             cell.setValueForCell(model)
         }
         return cell
@@ -149,9 +149,9 @@ extension XBHomeViewController: UITableViewDelegate, UITableViewDataSource{
     
     //cell的点击事件
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let webView = XBWebView()
+        let webView = TLMediaWebView()
         if self.coinsList?.count ?? 0 > indexPath.row {
-            let model: XBHomeMode = self.coinsList?.object(at: indexPath.row) as! XBHomeMode
+            let model: TLMediaHomeMode = self.coinsList?.object(at: indexPath.row) as! TLMediaHomeMode
             webView.coinURL = "http://winnie33.cc/#/detail?currency="+model.currency!
             webView.coinName = model.currency!
         }

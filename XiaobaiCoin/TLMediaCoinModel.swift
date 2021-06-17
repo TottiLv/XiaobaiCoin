@@ -1,12 +1,12 @@
 //
-//  XBCoinModel.swift
+//  TLMediaCoinModel.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/6/2.
 //
 import HandyJSON
 
-struct XBCoinDataDetailModel: HandyJSON {
+struct TLMediaCoinDataDetailModel: HandyJSON {
     var summary: String?
     var thumbnail: String?
     var createTime: TimeInterval?
@@ -19,12 +19,12 @@ struct XBCoinDataDetailModel: HandyJSON {
     var url: String?
 }
 
-struct XBCoinDataModel: HandyJSON {
+struct TLMediaCoinDataModel: HandyJSON {
     var total: Int?
-    var list:[XBCoinDataDetailModel]?
+    var list:[TLMediaCoinDataDetailModel]?
 }
 
-struct XBCoinModel : HandyJSON{
+struct TLMediaCoinModel : HandyJSON{
 //    var code: Int?
 //    var msg: String?
 //    var data: [XBCoinDataModel]?
@@ -49,6 +49,6 @@ struct XBCoinModel : HandyJSON{
     var lastPage: Int?
     var firstPage: Int?
     var navigatepageNums: [Int]?
-    var data: XBCoinDataModel?
+    var data: TLMediaCoinDataModel?
     
 }

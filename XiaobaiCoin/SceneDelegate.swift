@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
         window?.frame = (windowScene?.coordinateSpace.bounds)!
         window?.makeKeyAndVisible()
-        let tabBar: XBCustomTabBar = XBCustomTabBar()
+        let tabBar: TLMediaCustomTabBar = TLMediaCustomTabBar()
         window?.rootViewController = tabBar.XBCustomTabBar()
         guard let _ = (scene as? UIWindowScene) else { return }
     }

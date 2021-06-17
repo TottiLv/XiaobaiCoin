@@ -1,5 +1,5 @@
 //
-//  XBTools.swift
+//  TLMediaTools.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/20.
@@ -7,9 +7,9 @@
 
 import Foundation
 import UIKit
-class XBTools {
+class TLMediaTools {
     
-    static let shared = XBTools()
+    static let shared = TLMediaTools()
     
     private init(){}
     

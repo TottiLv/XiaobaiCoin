@@ -1,5 +1,5 @@
 //
-//  XBNewsViewController.swift
+//  TLMediaNewsViewController.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -11,7 +11,7 @@ import HandyJSON
 import ESPullToRefresh
 import OpenCC
 
-class XBNewsViewController : UIViewController{
+class TLMediaNewsViewController : UIViewController{
     
     var tableView: UITableView?
     var bottomId: Int?
@@ -44,7 +44,7 @@ class XBNewsViewController : UIViewController{
         self.tableView?.rowHeight = UITableView.automaticDimension
         self.view.addSubview(self.tableView!)
         //注册CELL
-        self.tableView?.register(XBNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
+        self.tableView?.register(TLMediaNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
         //清除多余cell分割线
         self.tableView?.tableFooterView = UIView()
         
@@ -66,8 +66,8 @@ class XBNewsViewController : UIViewController{
     
     fileprivate func __layoutUI(){
         self.tableView?.snp.makeConstraints({ make in
-            make.top.equalTo(self.view.snp.top).offset(XBTools.shared.safeArea().top+44)
-            make.bottom.equalTo(self.view.snp.bottom).inset(XBTools.shared.safeArea().bottom+44)
+            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top+44)
+            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom+44)
             make.left.right.equalTo(self.view)
         })
     }
@@ -82,11 +82,11 @@ class XBNewsViewController : UIViewController{
         API.News.newsList.fetch(param, headers: nil) { response in
             self.__removeLoadingView()
             let json = response as! NSDictionary
-            if let result = JSONDeserializer<XBNewsModel>.deserializeFrom(dict: json){
+            if let result = JSONDeserializer<TLMediaNewsModel>.deserializeFrom(dict: json){
                 self.bottomId = result.bottom_id
-                let ls: [XBNewsList] = result.list ?? []
+                let ls: [TLMediaNewsList] = result.list ?? []
                 if ls.count > 0 {
-                    let news: XBNewsList = ls[0]
+                    let news: TLMediaNewsList = ls[0]
                     self.newsLists?.addObjects(from: news.lives!)
                 }
                 self.tableView?.reloadData()
@@ -105,8 +105,8 @@ class XBNewsViewController : UIViewController{
         self.loadingView .removeFromSuperview()
     }
     
-    lazy var loadingView: XBLoadingView = {
-        let loadingView: XBLoadingView = XBLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
+    lazy var loadingView: TLMediaLoadingView = {
+        let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
         loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
         return loadingView
     }()
@@ -120,7 +120,7 @@ class XBNewsViewController : UIViewController{
     }()
 }
 
-extension XBNewsViewController: UITableViewDelegate, UITableViewDataSource{
+extension TLMediaNewsViewController: UITableViewDelegate, UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return self.newsLists?.count ?? 0
@@ -142,10 +142,10 @@ extension XBNewsViewController: UITableViewDelegate, UITableViewDataSource{
     //cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identify: String = "newsCell"
-        let cell = XBNewsTableViewCell(style: .default, reuseIdentifier: identify)
+        let cell = TLMediaNewsTableViewCell(style: .default, reuseIdentifier: identify)
         
         if self.newsLists?.count ?? 0 > indexPath.section {
-            let model: XBNewsContent = self.newsLists?.object(at: indexPath.section) as! XBNewsContent
+            let model: TLMediaNewsContent = self.newsLists?.object(at: indexPath.section) as! TLMediaNewsContent
             cell.setValueForCell(model)
         }
         return cell

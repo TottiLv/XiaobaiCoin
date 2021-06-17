@@ -1,5 +1,5 @@
 //
-//  XBHomeTableViewCell.swift
+//  TLMediaHomeTableViewCell.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -11,7 +11,7 @@ import SDWebImage
 import OpenCC
 
 //https://www.jianshu.com/p/5adc18761666
-class XBHomeTableViewCell: UITableViewCell {
+class TLMediaHomeTableViewCell: UITableViewCell {
     var coinImageView: UIImageView?
     var coinNameLabel: UILabel?//ffffff
     var coinValueLabel: UILabel? //999999
@@ -32,7 +32,7 @@ class XBHomeTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setValueForCell(_ model: XBHomeMode){
+    func setValueForCell(_ model: TLMediaHomeMode){
         self.coinImageView?.sd_setImage(with: URL(string: model.iconUrl!), placeholderImage: UIImage(named: "ic_B"))
         self.coinNameLabel?.text = self.converter?.convert(model.name ?? "")
         let cap: Double = model.marketCap ?? 0

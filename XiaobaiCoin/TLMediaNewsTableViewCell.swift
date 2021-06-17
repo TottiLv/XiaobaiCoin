@@ -1,5 +1,5 @@
 //
-//  XBNewsTableViewCell.swift
+//  TLMediaNewsTableViewCell.swift
 //  XiaobaiCoin
 //
 //  Created by lvjx on 2021/5/18.
@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import OpenCC
 //https://www.jianshu.com/p/5adc18761666
-class XBNewsTableViewCell: UITableViewCell {
+class TLMediaNewsTableViewCell: UITableViewCell {
     var timeLabel: UILabel?//999999
     var titleLabel: UILabel?//ffffff
     var contentLabel: UILabel?//828491
@@ -28,7 +28,7 @@ class XBNewsTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setValueForCell(_ model: XBNewsContent){
+    func setValueForCell(_ model: TLMediaNewsContent){
         let date = Date.init(timeIntervalSince1970: model.created_at ?? 0)
         
         let str = model.content
@@ -40,7 +40,7 @@ class XBNewsTableViewCell: UITableViewCell {
             self.contentLabel?.text = self.converter?.convert(result[1]) ?? ""
         }
         
-        self.timeLabel?.text = XBTools.shared.date2String(date)
+        self.timeLabel?.text = TLMediaTools.shared.date2String(date)
         
     }
     
