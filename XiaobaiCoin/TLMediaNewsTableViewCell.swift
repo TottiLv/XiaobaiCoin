@@ -19,8 +19,8 @@ class TLMediaNewsTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.backgroundColor = UIColor.init(rgb: 0x1D1E27)
-        self.setUpUI()
-        self.layoutUI()
+        self.__setUpUI()
+        self.__layoutUI()
     }
     
     required init?(coder: NSCoder) {
@@ -56,7 +56,7 @@ extension TLMediaNewsTableViewCell{
 }
 
 extension TLMediaNewsTableViewCell{
-    fileprivate func setUpUI(){
+    fileprivate func __setUpUI(){
         self.timeLabel = UILabel.init()
         self.timeLabel?.font = .systemFont(ofSize: 15)
         self.timeLabel?.textColor = UIColor.init(rgb: 0x999999)
@@ -77,7 +77,7 @@ extension TLMediaNewsTableViewCell{
         self.addSubview(self.contentLabel!)
     }
     
-    fileprivate func layoutUI(){
+    fileprivate func __layoutUI(){
         self.timeLabel?.snp.makeConstraints({ make in
             make.left.equalTo(self).offset(10)
             make.right.equalTo(self).inset(10)

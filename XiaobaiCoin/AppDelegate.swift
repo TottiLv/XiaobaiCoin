@@ -7,7 +7,9 @@
 
 import UIKit
 import HandyJSON
-
+/*
+ https://github.com/JonorZhang/iOSConfuse
+ */
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

@@ -23,8 +23,8 @@ class TLMediaHomeTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.backgroundColor = UIColor.init(rgb: 0x1D1E27)
-        self.setUpUI()
-        self.layoutUI()
+        self.__setUpUI()
+        self.__layoutUI()
     }
     
     required init?(coder: NSCoder) {
@@ -59,7 +59,7 @@ extension TLMediaHomeTableViewCell{
 }
 
 extension TLMediaHomeTableViewCell{
-    fileprivate func setUpUI(){
+    fileprivate func __setUpUI(){
         self.coinImageView = UIImageView()
         self.addSubview(self.coinImageView!)
         
@@ -86,7 +86,7 @@ extension TLMediaHomeTableViewCell{
         self.addSubview(self.coinPriceLimitLabel!)
     }
     
-    fileprivate func layoutUI(){
+    fileprivate func __layoutUI(){
         self.coinImageView?.snp.makeConstraints({ make in
             make.left.equalTo(self).offset(10)
             make.top.equalTo(self).inset(10)

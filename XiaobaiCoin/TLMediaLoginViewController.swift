@@ -25,10 +25,10 @@ class TLMediaLoginViewController : UIViewController{
         self.navigationItem.title = self.converter?.convert("登录/注册")
         self.view.backgroundColor = .black
         
-        self.setUpUI()
-        self.layoutUI()
-        self.styleUI()
-        self.actionUI()
+        self.__setUpUI()
+        self.__layoutUI()
+        self.__styleUI()
+        self.__actionUI()
         
     }
     
@@ -47,7 +47,7 @@ class TLMediaLoginViewController : UIViewController{
 }
 
 extension TLMediaLoginViewController{
-    fileprivate func setUpUI(){
+    fileprivate func __setUpUI(){
         self.txtUser = UITextField.init()
         self.txtUser.delegate = self
         self.view.addSubview(self.txtUser)
@@ -61,7 +61,7 @@ extension TLMediaLoginViewController{
         
     }
     
-    fileprivate func layoutUI(){
+    fileprivate func __layoutUI(){
         self.txtUser?.snp.makeConstraints({ make in
             make.left.right.equalTo(self.view).inset(20)
             make.height.equalTo(44)
@@ -79,7 +79,7 @@ extension TLMediaLoginViewController{
         })
     }
     
-    fileprivate func styleUI(){
+    fileprivate func __styleUI(){
         self.txtUser.layer.cornerRadius = 5
         self.txtUser.layer.borderColor = UIColor.gray.cgColor
         self.txtUser.layer.borderWidth = 0.5
@@ -112,11 +112,11 @@ extension TLMediaLoginViewController{
         self.txtBtn.backgroundColor = .red
     }
     
-    fileprivate func actionUI(){
+    fileprivate func __actionUI(){
         self.txtBtn.addTarget(self, action: #selector(loginAction), for: .touchUpInside)
     }
     
-    fileprivate func validateEmail(_ email: String) -> Bool {
+    fileprivate func __validateEmail(_ email: String) -> Bool {
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
         let emailTest:NSPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
         return emailTest.evaluate(with: email)
@@ -131,7 +131,7 @@ extension TLMediaLoginViewController{
             self.tipAction("温馨提示", "邮箱不能为空", 1)
             return
         }
-        if !self.validateEmail(user) {
+        if !self.__validateEmail(user) {
             self.tipAction("温馨提示", "请输入正确的邮箱", 2)
             return
         }
