@@ -39,23 +39,6 @@ class TLMediaWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHand
         userWebview.load(myRequest)
     }
     
-    
-    fileprivate func __layoutUI(){
-        self.userWebview?.snp.makeConstraints({ make in
-            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top)
-            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom)
-            make.left.right.equalTo(self.view)
-        })
-    }
-    
-    func __showLoadingView(){
-        self.view.addSubview(self.loadingView)
-    }
-    
-    func __removeLoadingView(){
-        self.loadingView .removeFromSuperview()
-    }
-    
     lazy var loadingView: TLMediaLoadingView = {
         let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
         loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
@@ -64,6 +47,24 @@ class TLMediaWebView: UIViewController,WKNavigationDelegate, WKScriptMessageHand
     
 //    self.view.addSubview(loadingView)
     
+}
+
+extension TLMediaWebView{
+    fileprivate func __layoutUI(){
+        self.userWebview?.snp.makeConstraints({ make in
+            make.top.equalTo(self.view.snp.top).offset(TLMediaTools.shared.safeArea().top)
+            make.bottom.equalTo(self.view.snp.bottom).inset(TLMediaTools.shared.safeArea().bottom)
+            make.left.right.equalTo(self.view)
+        })
+    }
+    
+    fileprivate func __showLoadingView(){
+        self.view.addSubview(self.loadingView)
+    }
+    
+    fileprivate func __removeLoadingView(){
+        self.loadingView .removeFromSuperview()
+    }
 }
 
 extension TLMediaWebView{

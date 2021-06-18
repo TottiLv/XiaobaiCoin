@@ -37,6 +37,16 @@ class TLMediaLoginViewController : UIViewController{
         
     }
     
+    lazy var bundle: Bundle? = {
+        let openCCBundle = Bundle(for: ChineseConverter.self)
+        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
+            return nil
+        }
+        return Bundle(url: resourceUrl)
+    }()
+}
+
+extension TLMediaLoginViewController{
     fileprivate func setUpUI(){
         self.txtUser = UITextField.init()
         self.txtUser.delegate = self
@@ -106,37 +116,14 @@ class TLMediaLoginViewController : UIViewController{
         self.txtBtn.addTarget(self, action: #selector(loginAction), for: .touchUpInside)
     }
     
-    func tipAction(_ title: String?, _ content: String?, _ tag: Int) {
-        // 建立一個提示框
-        let alertController = UIAlertController(
-            title: self.converter?.convert(title ?? "温馨提示"),
-            message: self.converter?.convert(content ?? "发生错误，请重新操作"),
-            preferredStyle: .alert)
-
-
-        // 建立[送出]按鈕
-        let okAction = UIAlertAction(
-            title: self.converter?.convert("确认"),
-            style: .default) { _ in
-            if 5 == tag {
-                self.navigationController?.popViewController(animated: true)
-            }
-        }
-        alertController.addAction(okAction)
-
-        // 顯示提示框
-        self.present(
-          alertController,
-          animated: true,
-          completion: nil)
-    }
-    
     fileprivate func validateEmail(_ email: String) -> Bool {
         let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
         let emailTest:NSPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
         return emailTest.evaluate(with: email)
     }
-    
+}
+
+extension TLMediaLoginViewController{
     @objc func loginAction(){
         let user: String = self.txtUser.text ?? ""
         let pwd: String = self.txtPwd.text ?? ""
@@ -161,16 +148,34 @@ class TLMediaLoginViewController : UIViewController{
         UserDefaults.standard.synchronize()
         self.tipAction("登录成功", "小白查查，欢迎您!", 5)
     }
-    
-    lazy var bundle: Bundle? = {
-        let openCCBundle = Bundle(for: ChineseConverter.self)
-        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
-            return nil
-        }
-        return Bundle(url: resourceUrl)
-    }()
 }
 
+extension TLMediaLoginViewController{
+    func tipAction(_ title: String?, _ content: String?, _ tag: Int) {
+        // 建立一個提示框
+        let alertController = UIAlertController(
+            title: self.converter?.convert(title ?? "温馨提示"),
+            message: self.converter?.convert(content ?? "发生错误，请重新操作"),
+            preferredStyle: .alert)
+
+
+        // 建立[送出]按鈕
+        let okAction = UIAlertAction(
+            title: self.converter?.convert("确认"),
+            style: .default) { _ in
+            if 5 == tag {
+                self.navigationController?.popViewController(animated: true)
+            }
+        }
+        alertController.addAction(okAction)
+
+        // 顯示提示框
+        self.present(
+          alertController,
+          animated: true,
+          completion: nil)
+    }
+}
 
 extension TLMediaLoginViewController : UITextFieldDelegate{
     

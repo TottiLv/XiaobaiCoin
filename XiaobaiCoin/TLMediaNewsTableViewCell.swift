@@ -28,6 +28,16 @@ class TLMediaNewsTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    lazy var bundle: Bundle? = {
+        let openCCBundle = Bundle(for: ChineseConverter.self)
+        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
+            return nil
+        }
+        return Bundle(url: resourceUrl)
+    }()
+}
+
+extension TLMediaNewsTableViewCell{
     func setValueForCell(_ model: TLMediaNewsContent){
         let date = Date.init(timeIntervalSince1970: model.created_at ?? 0)
         
@@ -43,7 +53,9 @@ class TLMediaNewsTableViewCell: UITableViewCell {
         self.timeLabel?.text = TLMediaTools.shared.date2String(date)
         
     }
-    
+}
+
+extension TLMediaNewsTableViewCell{
     fileprivate func setUpUI(){
         self.timeLabel = UILabel.init()
         self.timeLabel?.font = .systemFont(ofSize: 15)
@@ -88,13 +100,4 @@ class TLMediaNewsTableViewCell: UITableViewCell {
             make.bottom.equalTo(self.snp.bottom).offset(-5)
         })
     }
-    
-    lazy var bundle: Bundle? = {
-        let openCCBundle = Bundle(for: ChineseConverter.self)
-        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
-            return nil
-        }
-        return Bundle(url: resourceUrl)
-    }()
 }
-

@@ -33,6 +33,24 @@ class TLMediaNewsViewController : UIViewController{
         self.__fetchNewsList()
     }
     
+    
+    lazy var loadingView: TLMediaLoadingView = {
+        let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
+        loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
+        return loadingView
+    }()
+    
+    lazy var bundle: Bundle? = {
+        let openCCBundle = Bundle(for: ChineseConverter.self)
+        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
+            return nil
+        }
+        return Bundle(url: resourceUrl)
+    }()
+}
+
+extension TLMediaNewsViewController{
+    
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .grouped)
         self.tableView?.separatorStyle = .none//去掉分割线
@@ -97,27 +115,13 @@ class TLMediaNewsViewController : UIViewController{
 
     }
     
-    func __showLoadingView(){
+    fileprivate func __showLoadingView(){
         self.view.addSubview(self.loadingView)
     }
     
-    func __removeLoadingView(){
+    fileprivate func __removeLoadingView(){
         self.loadingView .removeFromSuperview()
     }
-    
-    lazy var loadingView: TLMediaLoadingView = {
-        let loadingView: TLMediaLoadingView = TLMediaLoadingView(frame: CGRect(x: self.view.frame.size.width/2-50, y: self.view.frame.size.height/2-50, width: 100, height: 100))
-        loadingView.backgroundColor = UIColor(displayP3Red: 230/255.0, green: 230/255.0, blue: 230/255.0, alpha: 0.3)
-        return loadingView
-    }()
-    
-    lazy var bundle: Bundle? = {
-        let openCCBundle = Bundle(for: ChineseConverter.self)
-        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
-            return nil
-        }
-        return Bundle(url: resourceUrl)
-    }()
 }
 
 extension TLMediaNewsViewController: UITableViewDelegate, UITableViewDataSource{

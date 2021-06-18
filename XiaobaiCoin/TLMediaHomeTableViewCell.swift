@@ -32,6 +32,16 @@ class TLMediaHomeTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    lazy var bundle: Bundle? = {
+        let openCCBundle = Bundle(for: ChineseConverter.self)
+        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
+            return nil
+        }
+        return Bundle(url: resourceUrl)
+    }()
+}
+
+extension TLMediaHomeTableViewCell{
     func setValueForCell(_ model: TLMediaHomeMode){
         self.coinImageView?.sd_setImage(with: URL(string: model.iconUrl!), placeholderImage: UIImage(named: "ic_B"))
         self.coinNameLabel?.text = self.converter?.convert(model.name ?? "")
@@ -46,7 +56,9 @@ class TLMediaHomeTableViewCell: UITableViewCell {
             self.coinPriceLimitLabel?.textColor = .red
         }
     }
-    
+}
+
+extension TLMediaHomeTableViewCell{
     fileprivate func setUpUI(){
         self.coinImageView = UIImageView()
         self.addSubview(self.coinImageView!)
@@ -108,12 +120,4 @@ class TLMediaHomeTableViewCell: UITableViewCell {
             make.centerY.equalTo(self.snp.centerY)
         })
     }
-    
-    lazy var bundle: Bundle? = {
-        let openCCBundle = Bundle(for: ChineseConverter.self)
-        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
-            return nil
-        }
-        return Bundle(url: resourceUrl)
-    }()
 }

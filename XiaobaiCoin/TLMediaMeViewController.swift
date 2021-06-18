@@ -46,6 +46,18 @@ class TLMediaMeViewController : UIViewController{
         super.viewDidDisappear(animated)
     }
     
+    lazy var bundle: Bundle? = {
+        let openCCBundle = Bundle(for: ChineseConverter.self)
+        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
+            return nil
+        }
+        return Bundle(url: resourceUrl)
+    }()
+    
+}
+
+
+extension TLMediaMeViewController{
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .plain)
         self.tableView?.separatorStyle = .singleLine//去掉分割线
@@ -69,7 +81,9 @@ class TLMediaMeViewController : UIViewController{
             make.left.right.equalTo(self.view)
         })
     }
-    
+}
+
+extension TLMediaMeViewController{
     func confirm() {
         // 建立一個提示框
         let alertController = UIAlertController(
@@ -102,18 +116,7 @@ class TLMediaMeViewController : UIViewController{
           animated: true,
           completion: nil)
     }
-    
-    
-    lazy var bundle: Bundle? = {
-        let openCCBundle = Bundle(for: ChineseConverter.self)
-        guard let resourceUrl = openCCBundle.url(forResource: "OpenCCDictionary", withExtension: "bundle") else {
-            return nil
-        }
-        return Bundle(url: resourceUrl)
-    }()
-    
 }
-
 
 extension TLMediaMeViewController: UITableViewDelegate, UITableViewDataSource{
     
