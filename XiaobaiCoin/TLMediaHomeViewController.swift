@@ -21,7 +21,7 @@ class TLMediaHomeViewController : UIViewController{
         super.viewDidLoad()
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.navigationItem.title = self.converter?.convert("行情")
-        self.view.backgroundColor = .black
+        self.view.backgroundColor = .white
         self.coinsList = NSMutableArray.init()
         
         self.__setupUI()
@@ -59,7 +59,7 @@ extension TLMediaHomeViewController {
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .plain)
         self.tableView?.separatorStyle = .none//去掉分割线
-        self.tableView?.backgroundColor = .black
+        self.tableView?.backgroundColor = .white
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
         self.view.addSubview(self.tableView!)

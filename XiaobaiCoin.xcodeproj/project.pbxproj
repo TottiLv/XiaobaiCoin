@@ -128,9 +128,11 @@
 				972B05D726535B2A007F20D7 /* LaunchScreen.storyboard */,
 				972B05DA26535B2A007F20D7 /* Info.plist */,
 				972B06A82653905B007F20D7 /* TLMediaCustomTabBar.swift */,
-				972B06AC26539352007F20D7 /* TLMediaHomeViewController.swift */,
 				972B06AE26539396007F20D7 /* TLMediaNewsViewController.swift */,
+				972B06AC26539352007F20D7 /* TLMediaHomeViewController.swift */,
 				972B06B02653A33D007F20D7 /* TLMediaNavigationController.swift */,
+				9792B6BA2669DCD800464D97 /* TLMediaMeViewController.swift */,
+				9792B6BC266A03FF00464D97 /* TLMediaLoginViewController.swift */,
 				972B06B22653E43D007F20D7 /* TLMediaHomeTableViewCell.swift */,
 				972B06B42653E44D007F20D7 /* TLMediaNewsTableViewCell.swift */,
 				9778E8802654B44E0052981A /* UIColor+Category.swift */,
@@ -140,8 +142,6 @@
 				975F10092657584500BC1E5C /* TLMediaWebView.swift */,
 				97A0E34926677A3D00A759F6 /* TLMediaCoinModel.swift */,
 				97E372842667B30600E6A4C3 /* TLMediaLoadingView.swift */,
-				9792B6BA2669DCD800464D97 /* TLMediaMeViewController.swift */,
-				9792B6BC266A03FF00464D97 /* TLMediaLoginViewController.swift */,
 			);
 			path = XiaobaiCoin;
 			sourceTree = "<group>";

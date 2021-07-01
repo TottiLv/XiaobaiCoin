@@ -18,7 +18,7 @@ class TLMediaNewsTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
-        self.backgroundColor = UIColor.init(rgb: 0x1D1E27)
+        self.backgroundColor = .white
         self.__setUpUI()
         self.__layoutUI()
     }
@@ -64,7 +64,7 @@ extension TLMediaNewsTableViewCell{
         
         self.titleLabel = UILabel.init()
         self.titleLabel?.font = .boldSystemFont(ofSize: 17)
-        self.titleLabel?.textColor = UIColor.init(rgb: 0xffffff)
+        self.titleLabel?.textColor = UIColor.init(rgb: 0x000000)
         self.titleLabel?.numberOfLines = 0
         self.titleLabel?.lineBreakMode = .byCharWrapping
         self.addSubview(self.titleLabel!)

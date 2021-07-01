@@ -22,7 +22,7 @@ class TLMediaHomeTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
-        self.backgroundColor = UIColor.init(rgb: 0x1D1E27)
+        self.backgroundColor = .white
         self.__setUpUI()
         self.__layoutUI()
     }
@@ -65,7 +65,7 @@ extension TLMediaHomeTableViewCell{
         
         self.coinNameLabel = UILabel.init()
         self.coinNameLabel?.font = .boldSystemFont(ofSize: 17)
-        self.coinNameLabel?.textColor = UIColor.init(rgb: 0xffffff)
+        self.coinNameLabel?.textColor = UIColor.init(rgb: 0x000000)
         self.addSubview(self.coinNameLabel!)
         
         self.coinValueLabel = UILabel.init()
@@ -75,7 +75,7 @@ extension TLMediaHomeTableViewCell{
         
         self.coinPriceLabel = UILabel.init()
         self.coinPriceLabel?.font = .boldSystemFont(ofSize: 17)
-        self.coinPriceLabel?.textColor = UIColor.init(rgb: 0xffffff)
+        self.coinPriceLabel?.textColor = UIColor.init(rgb: 0x000000)
         self.coinPriceLabel?.textAlignment = .center
         self.addSubview(self.coinPriceLabel!)
         

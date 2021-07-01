@@ -23,7 +23,7 @@ class TLMediaNewsViewController : UIViewController{
         
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.navigationItem.title = self.converter?.convert("快讯")
-        self.view.backgroundColor = .black
+        self.view.backgroundColor = .white
         self.bottomId = -1
         self.newsLists = NSMutableArray.init();
         
@@ -54,7 +54,7 @@ extension TLMediaNewsViewController{
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .grouped)
         self.tableView?.separatorStyle = .none//去掉分割线
-        self.tableView?.backgroundColor = .black
+        self.tableView?.backgroundColor = UIColor.init(rgb: 0x828491)
         self.tableView?.allowsSelection = false //禁止点击
         self.tableView?.delegate = self
         self.tableView?.dataSource = self

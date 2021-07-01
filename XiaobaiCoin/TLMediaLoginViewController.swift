@@ -23,7 +23,7 @@ class TLMediaLoginViewController : UIViewController{
         super.viewDidLoad()
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.navigationItem.title = self.converter?.convert("登录/注册")
-        self.view.backgroundColor = .black
+        self.view.backgroundColor = .white
         
         self.__setUpUI()
         self.__layoutUI()

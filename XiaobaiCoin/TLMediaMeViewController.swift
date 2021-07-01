@@ -25,7 +25,7 @@ class TLMediaMeViewController : UIViewController{
         super.viewDidLoad()
         self.converter = try! ChineseConverter(bundle: bundle!, option: [.traditionalize, .TWStandard, .TWIdiom])
         self.navigationItem.title = self.converter?.convert("我的")
-        self.view.backgroundColor = .black
+        self.view.backgroundColor = .white
         self.newsLists = [(self.converter?.convert("登录/注册"))! as String,(self.converter?.convert("加入社区"))! as String ,(self.converter?.convert("语言"))! as String,(self.converter?.convert("当前版本"))! as String,(self.converter?.convert("用户协议"))! as String]
         
         self.__setupUI()
@@ -61,15 +61,15 @@ extension TLMediaMeViewController{
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .plain)
         self.tableView?.separatorStyle = .singleLine//去掉分割线
-        self.tableView?.separatorColor = .white
-        self.tableView?.backgroundColor = .black
+        self.tableView?.separatorColor = .black
+        self.tableView?.backgroundColor = .white// UIColor.init(rgb: 0x828491)
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
 //        self.tableView?.estimatedRowHeight = 120
 //        self.tableView?.rowHeight = UITableView.automaticDimension
         self.view.addSubview(self.tableView!)
         //注册CELL
-        self.tableView?.register(TLMediaNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
+//        self.tableView?.register(TLMediaNewsTableViewCell.self, forCellReuseIdentifier: "newsCell")
         //清除多余cell分割线
         self.tableView?.tableFooterView = UIView()
     }
@@ -133,8 +133,8 @@ extension TLMediaMeViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identify: String = "newsCell"
         let cell = UITableViewCell(style: .value1, reuseIdentifier: identify)
-        cell.backgroundColor = .black
-        cell.textLabel?.textColor = .white
+        cell.backgroundColor = .white
+        cell.textLabel?.textColor = .black
         cell.detailTextLabel?.textColor = .gray
         cell.selectionStyle = .none
         if self.newsLists?.count ?? 0 > indexPath.row {
