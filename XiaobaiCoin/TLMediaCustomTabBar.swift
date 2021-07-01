@@ -18,12 +18,15 @@ class TLMediaCustomTabBar: UITabBarController {
         
         let newsNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: newsVC)
         newsNavigationController.navigationBar.barTintColor = .white
+        newsNavigationController.navigationBar.tintColor = .black
         newsNavigationController.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
         let homeNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: homeVC)
         homeNavigationController.navigationBar.barTintColor = .white
+        homeNavigationController.navigationBar.tintColor = .black
         homeNavigationController.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
         let meNavigationController: UINavigationController = TLMediaNavigationController(rootViewController: meVC)
         meNavigationController.navigationBar.barTintColor = .white
+        meNavigationController.navigationBar.tintColor = .black
         meNavigationController.navigationBar.titleTextAttributes = [.foregroundColor : UIColor.black]
         
         let tabbarNewsName = "资讯"
