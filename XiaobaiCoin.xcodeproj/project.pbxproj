@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970027E12692B0B300E33C56 /* TLSplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027E02692B0B200E33C56 /* TLSplashScreenView.swift */; };
+		970027E32692BBBC00E33C56 /* UIImage+TLGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027E22692BBBC00E33C56 /* UIImage+TLGif.swift */; };
 		972B05CD26535B26007F20D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CC26535B26007F20D7 /* AppDelegate.swift */; };
 		972B05CF26535B26007F20D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CE26535B26007F20D7 /* SceneDelegate.swift */; };
 		972B05D126535B26007F20D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05D026535B26007F20D7 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		48C50ED4219CAAC21D70EC56 /* Pods-XiaobaiCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaobaiCoin.debug.xcconfig"; path = "Target Support Files/Pods-XiaobaiCoin/Pods-XiaobaiCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		59E92D2139DFE0E2235A3DFF /* Pods-XiaobaiCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaobaiCoin.release.xcconfig"; path = "Target Support Files/Pods-XiaobaiCoin/Pods-XiaobaiCoin.release.xcconfig"; sourceTree = "<group>"; };
+		970027E02692B0B200E33C56 /* TLSplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSplashScreenView.swift; sourceTree = "<group>"; };
+		970027E22692BBBC00E33C56 /* UIImage+TLGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TLGif.swift"; sourceTree = "<group>"; };
 		972B05C926535B26007F20D7 /* XiaobaiCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaobaiCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972B05CC26535B26007F20D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		972B05CE26535B26007F20D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		970027DB2692AE4600E33C56 /* categoay */ = {
+			isa = PBXGroup;
+			children = (
+				9778E8802654B44E0052981A /* UIColor+Category.swift */,
+				970027E22692BBBC00E33C56 /* UIImage+TLGif.swift */,
+			);
+			path = categoay;
+			sourceTree = "<group>";
+		};
+		970027DC2692AE5200E33C56 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				9778EA132655333A0052981A /* TLMediaNewsModel.swift */,
+				972B06AE26539396007F20D7 /* TLMediaNewsViewController.swift */,
+				972B06B42653E44D007F20D7 /* TLMediaNewsTableViewCell.swift */,
+			);
+			path = news;
+			sourceTree = "<group>";
+		};
+		970027DD2692AE8E00E33C56 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				9792B6BC266A03FF00464D97 /* TLMediaLoginViewController.swift */,
+				9792B6BA2669DCD800464D97 /* TLMediaMeViewController.swift */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		970027DE2692AEE100E33C56 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				972B06AC26539352007F20D7 /* TLMediaHomeViewController.swift */,
+				972B06B22653E43D007F20D7 /* TLMediaHomeTableViewCell.swift */,
+				97B9443726561548008B365A /* TLMediaHomeMode.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		970027DF2692AFC300E33C56 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				970027E02692B0B200E33C56 /* TLSplashScreenView.swift */,
+			);
+			path = ads;
+			sourceTree = "<group>";
+		};
 		972B05C026535B26007F20D7 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +168,11 @@
 		972B05CB26535B26007F20D7 /* XiaobaiCoin */ = {
 			isa = PBXGroup;
 			children = (
+				970027DF2692AFC300E33C56 /* ads */,
+				970027DE2692AEE100E33C56 /* home */,
+				970027DD2692AE8E00E33C56 /* me */,
+				970027DC2692AE5200E33C56 /* news */,
+				970027DB2692AE4600E33C56 /* categoay */,
 				9778EA11265515E00052981A /* API.swift */,
 				9778E9FA26550B2B0052981A /* XBNetwork */,
 				972B05CC26535B26007F20D7 /* AppDelegate.swift */,
@@ -128,17 +183,8 @@
 				972B05D726535B2A007F20D7 /* LaunchScreen.storyboard */,
 				972B05DA26535B2A007F20D7 /* Info.plist */,
 				972B06A82653905B007F20D7 /* TLMediaCustomTabBar.swift */,
-				972B06AE26539396007F20D7 /* TLMediaNewsViewController.swift */,
-				972B06AC26539352007F20D7 /* TLMediaHomeViewController.swift */,
 				972B06B02653A33D007F20D7 /* TLMediaNavigationController.swift */,
-				9792B6BA2669DCD800464D97 /* TLMediaMeViewController.swift */,
-				9792B6BC266A03FF00464D97 /* TLMediaLoginViewController.swift */,
-				972B06B22653E43D007F20D7 /* TLMediaHomeTableViewCell.swift */,
-				972B06B42653E44D007F20D7 /* TLMediaNewsTableViewCell.swift */,
-				9778E8802654B44E0052981A /* UIColor+Category.swift */,
-				9778EA132655333A0052981A /* TLMediaNewsModel.swift */,
 				97B9443526560275008B365A /* TLMediaTools.swift */,
-				97B9443726561548008B365A /* TLMediaHomeMode.swift */,
 				975F10092657584500BC1E5C /* TLMediaWebView.swift */,
 				97A0E34926677A3D00A759F6 /* TLMediaCoinModel.swift */,
 				97E372842667B30600E6A4C3 /* TLMediaLoadingView.swift */,
@@ -329,11 +375,13 @@
 				97E372852667B30600E6A4C3 /* TLMediaLoadingView.swift in Sources */,
 				9792B6BD266A03FF00464D97 /* TLMediaLoginViewController.swift in Sources */,
 				972B06B32653E43D007F20D7 /* TLMediaHomeTableViewCell.swift in Sources */,
+				970027E32692BBBC00E33C56 /* UIImage+TLGif.swift in Sources */,
 				972B06B12653A33D007F20D7 /* TLMediaNavigationController.swift in Sources */,
 				975F100A2657584500BC1E5C /* TLMediaWebView.swift in Sources */,
 				9778EA0F265510300052981A /* HWNetworking.swift in Sources */,
 				9778E8812654B44E0052981A /* UIColor+Category.swift in Sources */,
 				972B05D126535B26007F20D7 /* ViewController.swift in Sources */,
+				970027E12692B0B300E33C56 /* TLSplashScreenView.swift in Sources */,
 				9778EA10265510300052981A /* HWAPI.swift in Sources */,
 				972B05CD26535B26007F20D7 /* AppDelegate.swift in Sources */,
 				972B05CF26535B26007F20D7 /* SceneDelegate.swift in Sources */,
