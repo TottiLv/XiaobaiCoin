@@ -91,17 +91,58 @@ extension TLSplashScreenView {
         case .localImage:
             self.adImageView.image = UIImage.init(named: img!)
         case .localGif:
-            print("localgif")
+            self.adImageView.loadGif(name: img!)
         case .netImage:
-            print("newImage")
+            self.adImageView.image = UIImage.init(contentsOfFile: self.img!)
         case .netGif:
-            print("netgif")
+            let data = try? Data.init(contentsOf: URL.init(fileURLWithPath: self.img!))
+            if nil == data {
+                self.__dismiss()
+            }else{
+                self.adImageView.image = UIImage.gif(data: data!)
+            }
         case .localVideo:
-            print("localVideo")
+            let filePath = Bundle.main.path(forResource: img!, ofType: "mp4")
+            let videoURL = URL(fileURLWithPath: filePath!)
+            let playerItem = AVPlayerItem.init(url: videoURL)
+            self.videoPlayer?.player = AVPlayer.init(playerItem: playerItem)
+            self.videoPlayer?.player?.play()
         case .netVideo:
-            print("netvideo")
+            let videoURL = URL(fileURLWithPath: img!)
+            let playerItem = AVPlayerItem.init(url: videoURL)
+            self.videoPlayer?.player = AVPlayer.init(playerItem: playerItem)
+            self.videoPlayer?.player?.play()
         default:
                 print("default")
+        }
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy HH:mm"
+        dateFormatter.string(from: Date())
+        
+        let timeStampString = self.imageValidTime
+        if nil == timeStampString {
+            //结束时间存储失败
+            self.__dismiss()
+        }
+        
+        let validTimeDate = dateFormatter.date(from: timeStampString!)
+        var result: ComparisonResult?
+        result = validTimeDate?.compare(Date())
+        //将存下来的日期和当前日期相比，如果当前日期小于存下来的时间，则可以显示广告页，反之则不显示
+        if result == .orderedAscending {
+            self.__dismiss()
+        }else{
+            if 0 != showTime {
+                self.showTime = showTime
+                countButton.setTitle("跳过\(showTime)", for: .normal)
+                __startTimer()
+            }else{
+                countButton.setTitle("跳过", for: .normal)
+            }
+            let window = UIApplication.shared.delegate?.window
+            window??.isHidden = false
+            window??.addSubview(self)
         }
     }
 }

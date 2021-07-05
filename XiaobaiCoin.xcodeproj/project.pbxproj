@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		970027E12692B0B300E33C56 /* TLSplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027E02692B0B200E33C56 /* TLSplashScreenView.swift */; };
 		970027E32692BBBC00E33C56 /* UIImage+TLGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027E22692BBBC00E33C56 /* UIImage+TLGif.swift */; };
+		970027E52692E1CA00E33C56 /* TLSplashScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970027E42692E1CA00E33C56 /* TLSplashScreenManager.swift */; };
+		970027EA2692E82E00E33C56 /* localGIf.gif in Resources */ = {isa = PBXBuildFile; fileRef = 970027E72692E82E00E33C56 /* localGIf.gif */; };
+		970027EB2692E82E00E33C56 /* localImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 970027E82692E82E00E33C56 /* localImage.JPG */; };
+		970027EC2692E82E00E33C56 /* localVidio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 970027E92692E82E00E33C56 /* localVidio.mp4 */; };
 		972B05CD26535B26007F20D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CC26535B26007F20D7 /* AppDelegate.swift */; };
 		972B05CF26535B26007F20D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CE26535B26007F20D7 /* SceneDelegate.swift */; };
 		972B05D126535B26007F20D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05D026535B26007F20D7 /* ViewController.swift */; };
@@ -45,6 +49,10 @@
 		59E92D2139DFE0E2235A3DFF /* Pods-XiaobaiCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaobaiCoin.release.xcconfig"; path = "Target Support Files/Pods-XiaobaiCoin/Pods-XiaobaiCoin.release.xcconfig"; sourceTree = "<group>"; };
 		970027E02692B0B200E33C56 /* TLSplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSplashScreenView.swift; sourceTree = "<group>"; };
 		970027E22692BBBC00E33C56 /* UIImage+TLGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TLGif.swift"; sourceTree = "<group>"; };
+		970027E42692E1CA00E33C56 /* TLSplashScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSplashScreenManager.swift; sourceTree = "<group>"; };
+		970027E72692E82E00E33C56 /* localGIf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = localGIf.gif; sourceTree = "<group>"; };
+		970027E82692E82E00E33C56 /* localImage.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = localImage.JPG; sourceTree = "<group>"; };
+		970027E92692E82E00E33C56 /* localVidio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localVidio.mp4; sourceTree = "<group>"; };
 		972B05C926535B26007F20D7 /* XiaobaiCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaobaiCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972B05CC26535B26007F20D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		972B05CE26535B26007F20D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,8 +151,19 @@
 			isa = PBXGroup;
 			children = (
 				970027E02692B0B200E33C56 /* TLSplashScreenView.swift */,
+				970027E42692E1CA00E33C56 /* TLSplashScreenManager.swift */,
 			);
 			path = ads;
+			sourceTree = "<group>";
+		};
+		970027E62692E81600E33C56 /* adsources */ = {
+			isa = PBXGroup;
+			children = (
+				970027E72692E82E00E33C56 /* localGIf.gif */,
+				970027E82692E82E00E33C56 /* localImage.JPG */,
+				970027E92692E82E00E33C56 /* localVidio.mp4 */,
+			);
+			path = adsources;
 			sourceTree = "<group>";
 		};
 		972B05C026535B26007F20D7 = {
@@ -168,6 +187,7 @@
 		972B05CB26535B26007F20D7 /* XiaobaiCoin */ = {
 			isa = PBXGroup;
 			children = (
+				970027E62692E81600E33C56 /* adsources */,
 				970027DF2692AFC300E33C56 /* ads */,
 				970027DE2692AEE100E33C56 /* home */,
 				970027DD2692AE8E00E33C56 /* me */,
@@ -293,6 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				972B05D926535B2A007F20D7 /* LaunchScreen.storyboard in Resources */,
+				970027EB2692E82E00E33C56 /* localImage.JPG in Resources */,
+				970027EA2692E82E00E33C56 /* localGIf.gif in Resources */,
+				970027EC2692E82E00E33C56 /* localVidio.mp4 in Resources */,
 				972B05D626535B2A007F20D7 /* Assets.xcassets in Resources */,
 				972B05D426535B26007F20D7 /* Main.storyboard in Resources */,
 			);
@@ -375,6 +398,7 @@
 				97E372852667B30600E6A4C3 /* TLMediaLoadingView.swift in Sources */,
 				9792B6BD266A03FF00464D97 /* TLMediaLoginViewController.swift in Sources */,
 				972B06B32653E43D007F20D7 /* TLMediaHomeTableViewCell.swift in Sources */,
+				970027E52692E1CA00E33C56 /* TLSplashScreenManager.swift in Sources */,
 				970027E32692BBBC00E33C56 /* UIImage+TLGif.swift in Sources */,
 				972B06B12653A33D007F20D7 /* TLMediaNavigationController.swift in Sources */,
 				975F100A2657584500BC1E5C /* TLMediaWebView.swift in Sources */,
