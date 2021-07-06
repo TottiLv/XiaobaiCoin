@@ -14,7 +14,6 @@
 		970027EB2692E82E00E33C56 /* localImage.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 970027E82692E82E00E33C56 /* localImage.JPG */; };
 		970027EC2692E82E00E33C56 /* localVidio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 970027E92692E82E00E33C56 /* localVidio.mp4 */; };
 		972B05CD26535B26007F20D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CC26535B26007F20D7 /* AppDelegate.swift */; };
-		972B05CF26535B26007F20D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05CE26535B26007F20D7 /* SceneDelegate.swift */; };
 		972B05D126535B26007F20D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B05D026535B26007F20D7 /* ViewController.swift */; };
 		972B05D426535B26007F20D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972B05D226535B26007F20D7 /* Main.storyboard */; };
 		972B05D626535B2A007F20D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972B05D526535B2A007F20D7 /* Assets.xcassets */; };
@@ -25,6 +24,7 @@
 		972B06B12653A33D007F20D7 /* TLMediaNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B06B02653A33D007F20D7 /* TLMediaNavigationController.swift */; };
 		972B06B32653E43D007F20D7 /* TLMediaHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B06B22653E43D007F20D7 /* TLMediaHomeTableViewCell.swift */; };
 		972B06B52653E44D007F20D7 /* TLMediaNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972B06B42653E44D007F20D7 /* TLMediaNewsTableViewCell.swift */; };
+		973628812694348600D07DFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973628802694348600D07DFC /* SceneDelegate.swift */; };
 		975F100A2657584500BC1E5C /* TLMediaWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975F10092657584500BC1E5C /* TLMediaWebView.swift */; };
 		9778E8812654B44E0052981A /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778E8802654B44E0052981A /* UIColor+Category.swift */; };
 		9778EA0C265510300052981A /* HWNetworkingOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778EA07265510300052981A /* HWNetworkingOC.swift */; };
@@ -55,7 +55,6 @@
 		970027E92692E82E00E33C56 /* localVidio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localVidio.mp4; sourceTree = "<group>"; };
 		972B05C926535B26007F20D7 /* XiaobaiCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaobaiCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972B05CC26535B26007F20D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		972B05CE26535B26007F20D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		972B05D026535B26007F20D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		972B05D326535B26007F20D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		972B05D526535B2A007F20D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		972B06B02653A33D007F20D7 /* TLMediaNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLMediaNavigationController.swift; sourceTree = "<group>"; };
 		972B06B22653E43D007F20D7 /* TLMediaHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLMediaHomeTableViewCell.swift; sourceTree = "<group>"; };
 		972B06B42653E44D007F20D7 /* TLMediaNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLMediaNewsTableViewCell.swift; sourceTree = "<group>"; };
+		973628802694348600D07DFC /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		975F10092657584500BC1E5C /* TLMediaWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLMediaWebView.swift; sourceTree = "<group>"; };
 		9778E8802654B44E0052981A /* UIColor+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
 		9778EA07265510300052981A /* HWNetworkingOC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWNetworkingOC.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 				9778EA11265515E00052981A /* API.swift */,
 				9778E9FA26550B2B0052981A /* XBNetwork */,
 				972B05CC26535B26007F20D7 /* AppDelegate.swift */,
-				972B05CE26535B26007F20D7 /* SceneDelegate.swift */,
+				973628802694348600D07DFC /* SceneDelegate.swift */,
 				972B05D026535B26007F20D7 /* ViewController.swift */,
 				972B05D226535B26007F20D7 /* Main.storyboard */,
 				972B05D526535B2A007F20D7 /* Assets.xcassets */,
@@ -399,6 +399,7 @@
 				9792B6BD266A03FF00464D97 /* TLMediaLoginViewController.swift in Sources */,
 				972B06B32653E43D007F20D7 /* TLMediaHomeTableViewCell.swift in Sources */,
 				970027E52692E1CA00E33C56 /* TLSplashScreenManager.swift in Sources */,
+				973628812694348600D07DFC /* SceneDelegate.swift in Sources */,
 				970027E32692BBBC00E33C56 /* UIImage+TLGif.swift in Sources */,
 				972B06B12653A33D007F20D7 /* TLMediaNavigationController.swift in Sources */,
 				975F100A2657584500BC1E5C /* TLMediaWebView.swift in Sources */,
@@ -408,7 +409,6 @@
 				970027E12692B0B300E33C56 /* TLSplashScreenView.swift in Sources */,
 				9778EA10265510300052981A /* HWAPI.swift in Sources */,
 				972B05CD26535B26007F20D7 /* AppDelegate.swift in Sources */,
-				972B05CF26535B26007F20D7 /* SceneDelegate.swift in Sources */,
 				97A0E34A26677A3D00A759F6 /* TLMediaCoinModel.swift in Sources */,
 				9778EA12265515E10052981A /* API.swift in Sources */,
 				97B9443826561548008B365A /* TLMediaHomeMode.swift in Sources */,

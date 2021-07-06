@@ -33,11 +33,11 @@ class TLSplashScreenView: UIView{
         super.init(frame: UIScreen.main.bounds)
         self.type = type
         if type != .localVideo && type != .netVideo {
-            
+            self.addSubview(adImageView)
         }else{
-            
+            self.addSubview((self.videoPlayer?.view)!)
         }
-//        self.addSubview()
+        self.addSubview(countButton)
     }
     
     required init?(coder: NSCoder) {
@@ -140,9 +140,14 @@ extension TLSplashScreenView {
             }else{
                 countButton.setTitle("跳过", for: .normal)
             }
-            let window = UIApplication.shared.delegate?.window
-            window??.isHidden = false
-            window??.addSubview(self)
+            var window: UIWindow?
+            if #available(iOS 13, *) {
+                window = UIApplication.shared.windows.first { $0.isKeyWindow }
+            } else {
+                window = UIApplication.shared.keyWindow
+            }
+            window?.isHidden = false
+            window?.addSubview(self)
         }
     }
 }

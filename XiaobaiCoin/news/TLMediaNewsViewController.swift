@@ -54,7 +54,7 @@ extension TLMediaNewsViewController{
     fileprivate func __setupUI(){
         self.tableView = UITableView(frame: CGRect.zero, style: .grouped)
         self.tableView?.separatorStyle = .none//去掉分割线
-        self.tableView?.backgroundColor = UIColor.init(rgb: 0x828491)
+        self.tableView?.backgroundColor = .white
         self.tableView?.allowsSelection = false //禁止点击
         self.tableView?.delegate = self
         self.tableView?.dataSource = self
@@ -157,13 +157,13 @@ extension TLMediaNewsViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView()
-        headerView.backgroundColor = .clear
+        headerView.backgroundColor = UIColor.init(rgb: 0x828491)
         return headerView
     }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let footerView = UIView()
-        footerView.backgroundColor = .clear
+        footerView.backgroundColor = UIColor.init(rgb: 0x828491)
         return footerView
     }
     

@@ -7,11 +7,11 @@
 
 import UIKit
 
-public let AdImageName = "AdImageName"
-public let AdGifName = "AdGifName"
-public let AdVideoName = "AdVideoName"
-public let AdLinkUrl = "AdLinkUrl"
-public let AdValidTime = "AdValidTime"
+public let TLAdImageName = "AdImageName"
+public let TLAdGifName = "AdGifName"
+public let TLAdVideoName = "AdVideoName"
+public let TLAdLinkUrl = "AdLinkUrl"
+public let TLAdValidTime = "AdValidTime"
 
 class TLSplashScreenManager: NSObject {
     public static let sharedManager = TLSplashScreenManager()
@@ -33,11 +33,11 @@ class TLSplashScreenManager: NSObject {
         if !isExist {
             //如果该资源不存在，则删除老的，下载新的
             if type == .netImage {
-                
+                downloadAdDataWithUrl(url, name!, linkUrl, validTime, TLAdImageName)
             }else if type == .netGif {
-                
+                downloadAdDataWithUrl(url, name!, linkUrl, validTime, TLAdGifName)
             }else if type == .netVideo {
-                
+                downloadAdDataWithUrl(url, name!, linkUrl, validTime, TLAdVideoName)
             }
         }
     }
@@ -64,8 +64,8 @@ class TLSplashScreenManager: NSObject {
                     self.__deleteOldCache()
                 }
                 UserDefaults.standard.setValue(name, forKey: key)
-                UserDefaults.standard.setValue(linkUrl, forKey: AdLinkUrl)
-                UserDefaults.standard.setValue(validTime, forKey: AdValidTime)
+                UserDefaults.standard.setValue(linkUrl, forKey: TLAdLinkUrl)
+                UserDefaults.standard.setValue(validTime, forKey: TLAdValidTime)
                 UserDefaults.standard.synchronize()
             }else{
                 print("保存失败")
@@ -75,35 +75,35 @@ class TLSplashScreenManager: NSObject {
     
     //删除旧的缓存文件
     fileprivate func __deleteOldCache(){
-        let imageName: String? = UserDefaults.standard.value(forKey: AdImageName) as? String
-        let videoName: String? = UserDefaults.standard.value(forKey: AdVideoName) as? String
-        let gifName: String? = UserDefaults.standard.value(forKey: AdGifName) as? String
+        let imageName: String? = UserDefaults.standard.value(forKey: TLAdImageName) as? String
+        let videoName: String? = UserDefaults.standard.value(forKey: TLAdVideoName) as? String
+        let gifName: String? = UserDefaults.standard.value(forKey: TLAdGifName) as? String
         
         if nil != imageName {
             let filePath = self.getFilePathWithName(imageName!)
             let fileManager = FileManager.default
             try? fileManager.removeItem(atPath: filePath)
-            UserDefaults.standard.setValue("", forKey: AdImageName)
-            UserDefaults.standard.setValue("", forKey: AdLinkUrl)
-            UserDefaults.standard.setValue("", forKey: AdValidTime)
+            UserDefaults.standard.setValue("", forKey: TLAdImageName)
+            UserDefaults.standard.setValue("", forKey: TLAdLinkUrl)
+            UserDefaults.standard.setValue("", forKey: TLAdValidTime)
             UserDefaults.standard.synchronize()
         }
         if nil != gifName {
             let filePath = self.getFilePathWithName(gifName!)
             let fileManager = FileManager.default
             try? fileManager.removeItem(atPath: filePath)
-            UserDefaults.standard.setValue("", forKey: AdGifName)
-            UserDefaults.standard.setValue("", forKey: AdLinkUrl)
-            UserDefaults.standard.setValue("", forKey: AdValidTime)
+            UserDefaults.standard.setValue("", forKey: TLAdGifName)
+            UserDefaults.standard.setValue("", forKey: TLAdLinkUrl)
+            UserDefaults.standard.setValue("", forKey: TLAdValidTime)
             UserDefaults.standard.synchronize()
         }
         if nil != videoName {
             let filePath = self.getFilePathWithName(videoName!)
             let fileManager = FileManager.default
             try? fileManager.removeItem(atPath: filePath)
-            UserDefaults.standard.setValue("", forKey: AdVideoName)
-            UserDefaults.standard.setValue("", forKey: AdLinkUrl)
-            UserDefaults.standard.setValue("", forKey: AdValidTime)
+            UserDefaults.standard.setValue("", forKey: TLAdVideoName)
+            UserDefaults.standard.setValue("", forKey: TLAdLinkUrl)
+            UserDefaults.standard.setValue("", forKey: TLAdValidTime)
             UserDefaults.standard.synchronize()
         }
         
